@@ -155,7 +155,7 @@ def crawl_hotNews():
         #     link_addr = link['href']
         # elif len(link['href']) >40:
         #     link_addr = news_url
-        hot_news.append(['https://www.foxnews.com'+link['href'],imgUrl['src'],title_text,content_text])
+        hot_news.append(['https://www.foxnews.com'+link['href'],imgUrl['src'],title_text,content.get_text()])
     return hot_news
 
 

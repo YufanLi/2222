@@ -145,7 +145,7 @@ def handle_TextMessage(event):
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
+                        
                         title='How To Make Your Own Mask',
                         text='It is better to have homemade mask than none',
                         actions=[

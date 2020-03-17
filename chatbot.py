@@ -23,8 +23,8 @@ from linebot.models import (
     FlexSendMessage, BubbleContainer, ImageComponent, BoxComponent,
     TextComponent, SpacerComponent, IconComponent, ButtonComponent,
     SeparatorComponent, QuickReply, QuickReplyButton,
-    ImageSendMessage, VideoSendMessage, PostbackTemplateAction,
-    MessageTemplateAction, URITemplateAction
+    ImageSendMessage,VideoSendMessage,PostbackTemplateAction,
+    MessageTemplateAction,URITemplateAction
 )
 
 from linebot.utils import PY3
@@ -118,7 +118,7 @@ def get_hotNews():
     hot_news_img = redis1.smembers('news_img')
     hot_news_title = redis1.smembers('news_title')
     hot_news_intro = redis1.smembers('news_intro')
-    return [list(hot_news_link), list(hot_news_img), list(hot_news_title), list(hot_news_intro)]
+    return [list(hot_news_link),list(hot_news_img),list(hot_news_title),list(hot_news_intro)]
 
 
 # todo: 返回当前热点的新闻
@@ -129,16 +129,16 @@ def crawl_hotNews():
     webPage = requests.get(news_url)
     bs = BeautifulSoup(webPage.text, 'lxml')
 
-    news_layout = bs.find('div', {'class': 'article-list'})
+    news_layout = bs.find('div',{'class':'article-list'})
     news_list = news_layout.find_all('article', {'class': 'article'})
     hot_news = []
     for news in news_list:
-        img_obj = news.find('div', {'class': 'm'})
+        img_obj = news.find('div',{'class':'m'})
         link = img_obj.find('a')
         imgUrl = img_obj.find('img')
-        content_obj = news.find('div', {'class': 'info'})
+        content_obj = news.find('div',{'class':'info'})
         title = content_obj.find('a')
-        content = content_obj.find('p', {'class': 'dek'})
+        content = content_obj.find('p',{'class':'dek'})
 
         title_text = title.get_text()
         if len(title_text) > 38:
@@ -146,16 +146,16 @@ def crawl_hotNews():
             title_text += '..'
 
         content_text = content.get_text()
-        if len(content_text) > 38:
+        if len(content_text )>38:
             content_text = content_text[0:37]
-            content_text += '..'
+            content_text+='..'
 
         # link_addr = ''
         # if 'video' in link['href']:
         #     link_addr = link['href']
         # elif len(link['href']) >40:
         #     link_addr = news_url
-        hot_news.append(['https://www.foxnews.com' + link['href'], imgUrl['src'], title_text, content_text])
+        hot_news.append(['https://www.foxnews.com'+link['href'],imgUrl['src'],title_text,content_text])
     return hot_news
 
 
@@ -167,37 +167,19 @@ def handle_TextMessage(event):
         message = TemplateSendMessage(
             alt_text='Hot news about the coronavirus',
             template=CarouselTemplate(
-                # columns=[
-                #     CarouselColumn(
-                #         thumbnail_image_url=str(hot_news[1][0],encoding='utf-8'),
-                #         title=str(hot_news[2][0],encoding='utf-8'),
-                #         text=str(hot_news[3][0],encoding='utf-8'),
-                #         actions=[
-                #             URIAction(uri=str(hot_news[0][0],encoding='utf-8'), label='View Detail')
-                #         ]
-                #     ),
-                #     CarouselColumn(
-                #         thumbnail_image_url=str(hot_news[1][1],encoding='utf-8'),
-                #         title=str(hot_news[2][1], encoding='utf-8'),
-                #         text=str(hot_news[3][1], encoding='utf-8'),
-                #         actions=[
-                #             URIAction(uri=str(hot_news[0][1], encoding='utf-8'), label='View Detail')
-                #         ]
-                #     )
-                # ]
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url=str(hot_news[1][0], encoding='utf-8'),
-                        title='title 1',
-                        text='t2',
+                        thumbnail_image_url=str(hot_news[1][0],encoding='utf-8'),
+                        title=str(hot_news[2][0],encoding='utf-8'),
+                        text=str(hot_news[3][0],encoding='utf-8'),
                         actions=[
-                            URIAction(uri=str(hot_news[0][0], encoding='utf-8'), label='View Detail')
+                            URIAction(uri=str(hot_news[0][0],encoding='utf-8'), label='View Detail')
                         ]
                     ),
                     CarouselColumn(
-                        thumbnail_image_url=str(hot_news[1][1], encoding='utf-8'),
-                        title='title 2',
-                        text='t3',
+                        thumbnail_image_url=str(hot_news[1][1],encoding='utf-8'),
+                        title=str(hot_news[2][1], encoding='utf-8'),
+                        text=str(hot_news[3][1], encoding='utf-8'),
                         actions=[
                             URIAction(uri=str(hot_news[0][1], encoding='utf-8'), label='View Detail')
                         ]
@@ -256,3 +238,5 @@ if __name__ == "__main__":
     options = arg_parser.parse_args()
 
     app.run(host='0.0.0.0', debug=options.debug, port=heroku_port)
+
+

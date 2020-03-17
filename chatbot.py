@@ -139,13 +139,29 @@ def crawl_hotNews():
         content_obj = news.find('div',{'class':'info'})
         title = content_obj.find('a')
         content = content_obj.find('p',{'class':'dek'})
-        hot_news.append(['https://www.foxnews.com/'+link['href'],imgUrl['src'],title.get_text(),content.get_text()])
+
+        title_text = title.get_text()
+        if len(title_text) > 38:
+            title_text = title_text[0:37]
+            title_text += '..'
+
+        # content_text = content.get_text()
+        # if len(content_text )>38:
+        #     content_text = content_text[0:37]
+        #     content_text+='..'
+
+        # link_addr = ''
+        # if 'video' in link['href']:
+        #     link_addr = link['href']
+        # elif len(link['href']) >40:
+        #     link_addr = news_url
+        hot_news.append(['https://www.foxnews.com'+link['href'],imgUrl['src'],title_text,content_text])
     return hot_news
 
 
 # Handler function for Text Message
 def handle_TextMessage(event):
-    if 'news' == event.message.text:
+    if 'news' == event.message.text.lower():
         # 调用获取最新新闻的接口获取新闻
         hot_news = get_hotNews()
         message = TemplateSendMessage(

@@ -131,7 +131,7 @@ def crawl_hotNews():
         a_obj = new.find('a')#a_obj['href']
         title_obj = new.find('div',{'class':'card-title'})#title_obj.get_text()
         content_obj = new.find('div',{'class':'vnk4ps-1'})#
-        hot_news.append(r'https://www.hk01.com'+[a_obj['href'],title_obj.get_text(),content_obj.get_text()])
+        hot_news.append([r'https://www.hk01.com'+a_obj['href'],title_obj.get_text(),content_obj.get_text()])
     return hot_news
 
 

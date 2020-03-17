@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from urllib.parse import urlparse
+
 import os
 import sys
 import redis
@@ -59,7 +59,7 @@ line_bot_api = LineBotApi(channel_access_token)
 parser = WebhookParser(channel_secret)
 
 # news source url
-news_url = r'https://www.hk01.com/tag/27872'
+news_url = r'https://www.foxnews.com/category/health/infectious-disease/coronavirus'
 
 
 @app.route("/callback", methods=['POST'])
@@ -105,17 +105,21 @@ def get_hotNews():
     if redis1.ttl('hot_news') < 0:
         news_list = crawl_hotNews()
         for new in news_list:
-            redis1.sadd("hot_news_link", new[0])
-            redis1.sadd("hot_news_title", new[1])
-            redis1.sadd("hot_news_intro", new[2])
-        redis1.expire("hot_news_link", 21600)
-        redis1.expire("hot_news_title", 21600)
-        redis1.expire("hot_news_intro", 21600)
+            redis1.sadd("news_link", new[0])
+            redis1.sadd("news_img", new[1])
+            redis1.sadd("news_title", new[2])
+            redis1.sadd("news_intro", new[3])
+        redis1.expire("news_link", 21600)
+        redis1.expire("news_title", 21600)
+        redis1.expire("news_img", 21600)
+        redis1.expire("news_intro", 21600)
 
-    hot_news_link = redis1.smembers('hot_news_link')
-    hot_news_title = redis1.smembers('hot_news_title')
-    hot_news_intro = redis1.smembers('hot_news_intro')
-    return [list(hot_news_link),list(hot_news_title),list(hot_news_intro)]
+    hot_news_link = redis1.smembers('news_link')
+    hot_news_img = redis1.smembers('news_img')
+    hot_news_title = redis1.smembers('news_title')
+    hot_news_intro = redis1.smembers('news_intro')
+    return [list(hot_news_link),list(hot_news_img),list(hot_news_title),list(hot_news_intro)]
+
 
 # todo: 返回当前热点的新闻
 def crawl_hotNews():
@@ -125,13 +129,17 @@ def crawl_hotNews():
     webPage = requests.get(news_url)
     bs = BeautifulSoup(webPage.text, 'lxml')
 
-    news_list = bs.find_all('div', {'class': 'eih00n-2'})
+    news_layout = bs.find('div',{'class':'article-list'})
+    news_list = news_layout.find_all('article', {'class': 'article'})
     hot_news = []
-    for new in news_list:
-        a_obj = new.find('a')#a_obj['href']
-        title_obj = new.find('div',{'class':'card-title'})#title_obj.get_text()
-        content_obj = new.find('div',{'class':'vnk4ps-1'})#
-        hot_news.append(['https://www.hk01.com'+a_obj['href'],title_obj.get_text(),content_obj.get_text()])
+    for news in news_list:
+        img_obj = news.find('div',{'class':'m'})
+        link = img_obj.find('a')
+        imgUrl = img_obj.find('img')
+        content_obj = news.find('div',{'class':'info'})
+        title = content_obj.find('a')
+        content = content_obj.find('p',{'class':'dek'})
+        hot_news.append(['https://www.foxnews.com/'+link['href'],imgUrl['src'],title.get_text(),content.get_text()])
     return hot_news
 
 
@@ -145,40 +153,19 @@ def handle_TextMessage(event):
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
-                        title=str(hot_news[1][0],encoding='utf-8'),
-                        text=str(hot_news[2][0],encoding='utf-8'),
+                        thumbnail_image_url=hot_news[1][0],
+                        title=str(hot_news[2][0],encoding='utf-8'),
+                        text=str(hot_news[3][0],encoding='utf-8'),
                         actions=[
-                            URIAction(uri='https://www.baidu.com', label='View Detail')
+                            URIAction(uri=str(hot_news[0][0],encoding='utf-8'), label='View Detail')
                         ]
                     ),
                     CarouselColumn(
-                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
-                        title=str(hot_news[1][1], encoding='utf-8'),
-                        text=str(hot_news[2][1], encoding='utf-8'),
+                        thumbnail_image_url=hot_news[1][1],
+                        title=str(hot_news[2][1], encoding='utf-8'),
+                        text=str(hot_news[3][1], encoding='utf-8'),
                         actions=[
-                            URIAction(uri='https://www.baidu.com', label='View Detail')
-                        ]
-                    ),CarouselColumn(
-                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
-                        title=str(hot_news[1][2],encoding='utf-8'),
-                        text=str(hot_news[2][2],encoding='utf-8'),
-                        actions=[
-                            URIAction(uri='https://www.baidu.com', label='View Detail')
-                        ]
-                    ),CarouselColumn(
-                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
-                        title=str(hot_news[1][3],encoding='utf-8'),
-                        text=str(hot_news[2][3],encoding='utf-8'),
-                        actions=[
-                            URIAction(uri='https://www.baidu.com', label='View Detail')
-                        ]
-                    ),CarouselColumn(
-                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
-                        title=str(hot_news[1][4],encoding='utf-8'),
-                        text=str(hot_news[2][4],encoding='utf-8'),
-                        actions=[
-                            URIAction(uri='https://www.baidu.com', label='View Detail')
+                            URIAction(uri=str(hot_news[0][1], encoding='utf-8'), label='View Detail')
                         ]
                     )
                 ]

@@ -145,7 +145,7 @@ def crawl_hotNews():
 
 # Handler function for Text Message
 def handle_TextMessage(event):
-    if 'hot news' == event.message.text:
+    if 'news' == event.message.text:
         # 调用获取最新新闻的接口获取新闻
         hot_news = get_hotNews()
         message = TemplateSendMessage(
@@ -153,7 +153,7 @@ def handle_TextMessage(event):
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url=hot_news[1][0],
+                        thumbnail_image_url=str(hot_news[1][0],encoding='utf-8'),
                         title=str(hot_news[2][0],encoding='utf-8'),
                         text=str(hot_news[3][0],encoding='utf-8'),
                         actions=[
@@ -161,7 +161,7 @@ def handle_TextMessage(event):
                         ]
                     ),
                     CarouselColumn(
-                        thumbnail_image_url=hot_news[1][1],
+                        thumbnail_image_url=str(hot_news[1][1],encoding='utf-8'),
                         title=str(hot_news[2][1], encoding='utf-8'),
                         text=str(hot_news[3][1], encoding='utf-8'),
                         actions=[

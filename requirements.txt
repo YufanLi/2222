@@ -1,3 +1,4 @@
 flask
 redis
+bs4
 line-bot-sdk

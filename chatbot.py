@@ -131,7 +131,7 @@ def crawl_hotNews():
         a_obj = new.find('a')#a_obj['href']
         title_obj = new.find('div',{'class':'card-title'})#title_obj.get_text()
         content_obj = new.find('div',{'class':'vnk4ps-1'})#
-        hot_news.append([r'https://www.hk01.com'+a_obj['href'],title_obj.get_text(),content_obj.get_text()])
+        hot_news.append(['https://www.hk01.com'+a_obj['href'],title_obj.get_text(),content_obj.get_text()])
     return hot_news
 
 
@@ -145,7 +145,7 @@ def handle_TextMessage(event):
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url='https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+                        thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
                         title=str(hot_news[1][0],encoding='utf-8'),
                         text=str(hot_news[2][0],encoding='utf-8'),
                         actions=[
@@ -236,70 +236,4 @@ if __name__ == "__main__":
 
     app.run(host='0.0.0.0', debug=options.debug, port=heroku_port)
 
-# {
-#   "type": "template",
-#   "altText": "this is a carousel template",
-#   "template": {
-#       "type": "carousel",
-#       "columns": [
-#           {
-#             "thumbnailImageUrl": "https://example.com/bot/images/item1.jpg",
-#             "imageBackgroundColor": "#FFFFFF",
-#             "title": "this is menu",
-#             "text": "description",
-#             "defaultAction": {
-#                 "type": "uri",
-#                 "label": "View detail",
-#                 "uri": "http://example.com/page/123"
-#             },
-#             "actions": [
-#                 {
-#                     "type": "postback",
-#                     "label": "Buy",
-#                     "data": "action=buy&itemid=111"
-#                 },
-#                 {
-#                     "type": "postback",
-#                     "label": "Add to cart",
-#                     "data": "action=add&itemid=111"
-#                 },
-#                 {
-#                     "type": "uri",
-#                     "label": "View detail",
-#                     "uri": "http://example.com/page/111"
-#                 }
-#             ]
-#           },
-#           {
-#             "thumbnailImageUrl": "https://example.com/bot/images/item2.jpg",
-#             "imageBackgroundColor": "#000000",
-#             "title": "this is menu",
-#             "text": "description",
-#             "defaultAction": {
-#                 "type": "uri",
-#                 "label": "View detail",
-#                 "uri": "http://example.com/page/222"
-#             },
-#             "actions": [
-#                 {
-#                     "type": "postback",
-#                     "label": "Buy",
-#                     "data": "action=buy&itemid=222"
-#                 },
-#                 {
-#                     "type": "postback",
-#                     "label": "Add to cart",
-#                     "data": "action=add&itemid=222"
-#                 },
-#                 {
-#                     "type": "uri",
-#                     "label": "View detail",
-#                     "uri": "http://example.com/page/222"
-#                 }
-#             ]
-#           }
-#       ],
-#       "imageAspectRatio": "rectangle",
-#       "imageSize": "cover"
-#   }
-# }
+

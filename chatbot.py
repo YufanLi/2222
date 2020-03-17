@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-
+from urllib.parse import urlparse
 import os
 import sys
 import redis
@@ -149,7 +149,7 @@ def handle_TextMessage(event):
                         title=str(hot_news[1][0],encoding='utf-8'),
                         text=str(hot_news[2][0],encoding='utf-8'),
                         actions=[
-                            URIAction(uri=str(hot_news[0][0],encoding='utf-8'), label='View Detail')
+                            URIAction(uri='https://www.baidu.com', label='View Detail')
                         ]
                     ),
                     CarouselColumn(
@@ -157,28 +157,28 @@ def handle_TextMessage(event):
                         title=str(hot_news[1][1], encoding='utf-8'),
                         text=str(hot_news[2][1], encoding='utf-8'),
                         actions=[
-                            URIAction(uri=str(hot_news[0][1], encoding='utf-8'), label='View Detail')
+                            URIAction(uri='https://www.baidu.com', label='View Detail')
                         ]
                     ),CarouselColumn(
                         thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
                         title=str(hot_news[1][2],encoding='utf-8'),
                         text=str(hot_news[2][2],encoding='utf-8'),
                         actions=[
-                            URIAction(uri=str(hot_news[0][2],encoding='utf-8'), label='View Detail')
+                            URIAction(uri='https://www.baidu.com', label='View Detail')
                         ]
                     ),CarouselColumn(
                         thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
                         title=str(hot_news[1][3],encoding='utf-8'),
                         text=str(hot_news[2][3],encoding='utf-8'),
                         actions=[
-                            URIAction(uri=str(hot_news[0][3],encoding='utf-8'), label='View Detail')
+                            URIAction(uri='https://www.baidu.com', label='View Detail')
                         ]
                     ),CarouselColumn(
                         thumbnail_image_url='https://object.bigbigchannel.com.hk/2020/02/25/1582642972238.png',
                         title=str(hot_news[1][4],encoding='utf-8'),
                         text=str(hot_news[2][4],encoding='utf-8'),
                         actions=[
-                            URIAction(uri=str(hot_news[0][4],encoding='utf-8'), label='View Detail')
+                            URIAction(uri='https://www.baidu.com', label='View Detail')
                         ]
                     )
                 ]

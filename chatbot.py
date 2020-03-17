@@ -145,36 +145,40 @@ def handle_TextMessage(event):
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        
-                        title='How To Make Your Own Mask',
-                        text='It is better to have homemade mask than none',
+                        thumbnail_image_url='https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+                        title=str(hot_news[1][0],encoding='utf-8'),
+                        text=str(hot_news[2][0],encoding='utf-8'),
                         actions=[
-                            URITemplateAction(
-                                label='view video',
-                                uri='https://www.youtube.com/watch?v=8hAMDi3yzq0'
-                            )
+                            URIAction(uri=str(hot_news[0][0],encoding='utf-8'), label='View Detail')
                         ]
                     ),
                     CarouselColumn(
-                        thumbnail_image_url='https://cdn.hk01.com/di/media/images/3921597/org/823622f9fe1a3279567080bd282ac3a5.jpg/B4zaMGYvBd4Kh4M78MmCcm8t0klu951tCVlogAlZaIA?v=w1920r16_9',
-                        title='Homemade Alcohol Hand Rub',
-                        text='Contains detailed steps for making hand rub',
+                        thumbnail_image_url='https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+                        title=str(hot_news[1][1], encoding='utf-8'),
+                        text=str(hot_news[2][1], encoding='utf-8'),
                         actions=[
-                            URITemplateAction(
-                                label='view video',
-                                uri='https://www.youtube.com/watch?v=FLLG54YfaLQ'
-                            )
+                            URIAction(uri=str(hot_news[0][1], encoding='utf-8'), label='View Detail')
                         ]
-                    ),
-                    CarouselColumn(
-                        thumbnail_image_url='https://i.ytimg.com/vi/t30dxGn-ECc/hqdefault.jpg',
-                        title='How To Make Alcohol Spray',
-                        text='Make a hand cleaning spray that works just as well',
+                    ),CarouselColumn(
+                        thumbnail_image_url='https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+                        title=str(hot_news[1][2],encoding='utf-8'),
+                        text=str(hot_news[2][2],encoding='utf-8'),
                         actions=[
-                            URITemplateAction(
-                                label='view video',
-                                uri='https://www.youtube.com/watch?v=t30dxGn-ECc'
-                            )
+                            URIAction(uri=str(hot_news[0][2],encoding='utf-8'), label='View Detail')
+                        ]
+                    ),CarouselColumn(
+                        thumbnail_image_url='https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+                        title=str(hot_news[1][3],encoding='utf-8'),
+                        text=str(hot_news[2][3],encoding='utf-8'),
+                        actions=[
+                            URIAction(uri=str(hot_news[0][3],encoding='utf-8'), label='View Detail')
+                        ]
+                    ),CarouselColumn(
+                        thumbnail_image_url='https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+                        title=str(hot_news[1][4],encoding='utf-8'),
+                        text=str(hot_news[2][4],encoding='utf-8'),
+                        actions=[
+                            URIAction(uri=str(hot_news[0][4],encoding='utf-8'), label='View Detail')
                         ]
                     )
                 ]

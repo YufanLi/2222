@@ -217,15 +217,15 @@ def handle_TextMessage(event):
             message
         )
     else:
-       if(event.message.text == 'Q&A'):
-           msg = 'OK! '
-       if(event.message.text == 'How to prevent the coronary pneumonia?'):
-        msg = 'Wash hands '
-       if(event.message.text == 'What should you do during an outbreak?'):
-        msg = 'Wearing a mask '
-       line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(msg)
+        if (event.message.text == 'Q&A'):
+            msg = 'OK! '
+        if (event.message.text == 'How to prevent the coronary pneumonia?'):
+            msg = 'Wash hands '
+        if (event.message.text == 'What should you do during an outbreak?'):
+            msg = 'Wearing a mask '
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(msg)
         )
 
 

@@ -216,7 +216,7 @@ def handle_TextMessage(event):
             event.reply_token,
             message
         )
-    # createby: 
+    # createby: Zhang Mingxuan
     else:
         if (event.message.text == 'Q&A'):
             msg = 'OK! '

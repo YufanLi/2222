@@ -105,19 +105,19 @@ def get_hotNews():
     if redis1.ttl('hot_news') < 0:
         news_list = crawl_hotNews()
         for new in news_list:
-            redis1.sadd("news_link", new[0])
-            redis1.sadd("news_img", new[1])
-            redis1.sadd("news_title", new[2])
-            redis1.sadd("news_intro", new[3])
-        redis1.expire("news_link", 21600)
-        redis1.expire("news_title", 21600)
-        redis1.expire("news_img", 21600)
-        redis1.expire("news_intro", 21600)
+            redis1.sadd("hot_news_link", new[0])
+            redis1.sadd("hot_news_img", new[1])
+            redis1.sadd("hot_news_title", new[2])
+            redis1.sadd("hot_news_intro", new[3])
+        redis1.expire("hot_news_link", 21600)
+        redis1.expire("hot_news_title", 21600)
+        redis1.expire("hot_news_img", 21600)
+        redis1.expire("hot_news_intro", 21600)
 
-    hot_news_link = redis1.smembers('news_link')
-    hot_news_img = redis1.smembers('news_img')
-    hot_news_title = redis1.smembers('news_title')
-    hot_news_intro = redis1.smembers('news_intro')
+    hot_news_link = redis1.smembers('hot_news_link')
+    hot_news_img = redis1.smembers('hot_news_img')
+    hot_news_title = redis1.smembers('hot_news_title')
+    hot_news_intro = redis1.smembers('hot_news_intro')
     return [list(hot_news_link),list(hot_news_img),list(hot_news_title),list(hot_news_intro)]
 
 
@@ -141,21 +141,19 @@ def crawl_hotNews():
         content = content_obj.find('p',{'class':'dek'})
 
         title_text = title.get_text()
-        if len(title_text) > 38:
+        if len(title_text )> 38:
             title_text = title_text[0:37]
             title_text += '..'
-
         content_text = content.get_text()
         if len(content_text )>38:
             content_text = content_text[0:37]
             content_text+='..'
-
-        # link_addr = ''
-        # if 'video' in link['href']:
-        #     link_addr = link['href']
-        # elif len(link['href']) >40:
-        #     link_addr = news_url
-        hot_news.append(['https://www.foxnews.com'+link['href'],imgUrl['src'],title_text,content_text])
+        link_addr = ''
+        if 'video' in link['href']:
+            link_addr = link['href']
+        else:
+            link_addr = 'https://www.foxnews.com'+link['href']
+        hot_news.append([link_addr,imgUrl['src'],title_text,content_text])
     return hot_news
 
 
@@ -182,6 +180,30 @@ def handle_TextMessage(event):
                         text=str(hot_news[3][1], encoding='utf-8'),
                         actions=[
                             URIAction(uri=str(hot_news[0][1], encoding='utf-8'), label='View Detail')
+                        ]
+                    ),
+                    CarouselColumn(
+                        thumbnail_image_url=str(hot_news[1][1], encoding='utf-8'),
+                        title=str(hot_news[2][2], encoding='utf-8'),
+                        text=str(hot_news[3][2], encoding='utf-8'),
+                        actions=[
+                            URIAction(uri=str(hot_news[0][2], encoding='utf-8'), label='View Detail')
+                        ]
+                    ),
+                    CarouselColumn(
+                        thumbnail_image_url=str(hot_news[1][3], encoding='utf-8'),
+                        title=str(hot_news[2][3], encoding='utf-8'),
+                        text=str(hot_news[3][3], encoding='utf-8'),
+                        actions=[
+                            URIAction(uri=str(hot_news[0][3], encoding='utf-8'), label='View Detail')
+                        ]
+                    ),
+                    CarouselColumn(
+                        thumbnail_image_url=str(hot_news[1][4], encoding='utf-8'),
+                        title=str(hot_news[2][4], encoding='utf-8'),
+                        text=str(hot_news[3][4], encoding='utf-8'),
+                        actions=[
+                            URIAction(uri=str(hot_news[0][4], encoding='utf-8'), label='View Detail')
                         ]
                     )
                 ]

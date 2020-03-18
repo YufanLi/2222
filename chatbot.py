@@ -82,7 +82,10 @@ def callback():
             continue
         if isinstance(event.message, TextMessage):
             # todo: 针对不同的文本输入进行不同的反应
-            handle_TextMessage(event)
+            if(isinstance(event.message,TextMessage) and event.message.text.lower()=='hospitals'):
+                handler_function3(event)
+            else:
+                handle_TextMessage(event)
         if isinstance(event.message, ImageMessage):
             handle_ImageMessage(event)
         if isinstance(event.message, VideoMessage):
@@ -91,6 +94,8 @@ def callback():
             handle_FileMessage(event)
         if isinstance(event.message, StickerMessage):
             handle_StickerMessage(event)
+        if(isinstance(event,PostbackEvent) and event.postback.data[0:5]=='prov_'):
+            handler_CityList(event)
 
         if not isinstance(event, MessageEvent):
             continue
@@ -158,7 +163,6 @@ def crawl_hotNews():
         hot_news.append([link_addr,imgUrl['src'],title_text,content_text])
     return hot_news
 
-
 # Handler function for Text Message
 def handle_TextMessage(event):
     # createby: LI Yufan
@@ -216,7 +220,7 @@ def handle_TextMessage(event):
             event.reply_token,
             message
         )
-    # createby: Zhang Mingxuan
+    # createby:
     else:
         if (event.message.text == 'Q&A'):
             msg = 'OK! '
@@ -228,7 +232,59 @@ def handle_TextMessage(event):
             event.reply_token,
             TextSendMessage(msg)
         )
+#data/variable initiated by GAO Han
+#province list
+init_data=[
+    "Anhui","Beijing","Chongqing","Fujian","Gansu","Guangdong","Guangxi","Guizhou","Hainan","Hebei","Henan","Heilongjiang",
+    "Hubei","Hunan","Nei Mongolia","Jilin","Jiangsu","Jiangxi","Ningxia","Qinghai","Shandong","Shanxi","Shaanxi",
+    "Shanghai","Sichuan","Tianjin","Tibet","Xinjiang","Yunnan","Zhejiang"
+]
+#province content array
+prov_cont_array=[]
+#data init end
 
+#Generate province content array
+#by GAO Han
+def prov_ListArray(arr):
+    default_action={'type':'postback','label':"default_label",'data':"default_data"}
+    default_content={'type':'button',"style":"secondary","height":"sm","margin":"xs"}
+    for item in arr:
+        prov_item='prov_'+item
+        default_action['label']=item
+        default_action['data']=prov_item
+        default_content['action']=default_action
+        content_str=str(default_content)
+        dict_temp=eval(content_str)
+        prov_cont_array.append(dict_temp)
+    return prov_cont_array
+
+#Handle function3--display info about designated hospitals
+#step1--display all the provinces/municipality
+#by GAO Han
+def handler_function3(event):
+    con=prov_ListArray(init_data)
+    line_bot_api.reply_message(
+        event.reply_token,
+        FlexSendMessage(
+            alt_text="list",
+            contents={
+                "type": "bubble",
+                "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents":con
+                }
+            }
+        )
+    )
+
+#display city list
+#by GAO Han
+def handler_CityList(event):
+    line_bot_api.reply_message(
+        event.reply_token,
+        TextSendMessage("Please choose cities in "+event.postback.data[5:])
+    )
 
 # Handler function for Sticker Message
 def handle_StickerMessage(event):

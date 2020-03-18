@@ -220,14 +220,24 @@ def handle_TextMessage(event):
             event.reply_token,
             message
         )
-    # createby:
+    # createby: Zhang Mingxuan
     else:
-        if (event.message.text == 'Q&A'):
+        str_prevent_virus = "abcABC*?//"
+        if event.message.text == 'Q&A':
             msg = 'OK! '
-        if (event.message.text == 'How to prevent the coronary pneumonia?'):
+        elif 'how' in event.message.text.lower() or 'prevention' in event.message.text.lower():
+            # elif event.message.text == 'How to prevent the coronary pneumonia?':
             msg = 'Wash hands '
-        if (event.message.text == 'What should you do during an outbreak?'):
+        elif 'what' in event.message.text.lower() or 'outside' in event.message.text.lower():
+            # elif event.message.text == 'What should you do during an outbreak?':
             msg = 'Wearing a mask '
+        # modifiedBy LI Yufan
+        else:
+            msg = 'Sorry, for technical reasons, we cannot further provide u other kind of service! Please enter the ' \
+                  'command as follow \n \'news\' \t view the latest news of coronavirus topic' \
+                  '\n \'Q&A\' \t start Q&A and get answer if we have made it' \
+                  '\n \'Q&A\' \t start Q&A and get answer if we have made it' \
+                  '\n \'hospitals\' \t view the list of designated hospitals'
         line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(msg)

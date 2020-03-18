@@ -101,6 +101,7 @@ def callback():
 
 
 # todo: 当缓存的新闻数据不是最新的时候，获取最新的新闻数据，反之则直接返回缓存的新闻数据
+# createby: lyf
 def get_hotNews():
     if redis1.ttl('hot_news') < 0:
         news_list = crawl_hotNews()
@@ -122,6 +123,7 @@ def get_hotNews():
 
 
 # todo: 返回当前热点的新闻
+# createby: lyf
 def crawl_hotNews():
     # 爬取热点新闻数据 然后缓存在redis 中
 
@@ -159,6 +161,7 @@ def crawl_hotNews():
 
 # Handler function for Text Message
 def handle_TextMessage(event):
+    # modifiedBy: lyf
     if 'news' == event.message.text.lower():
         # 调用获取最新新闻的接口获取新闻
         hot_news = get_hotNews()

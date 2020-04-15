@@ -1,0 +1,2272 @@
+<?xml version="1.0"?>
+<citylist>
+    <province provname="北京">
+        <city cityname="北京">
+            <hospital>北京市延庆区医院</hospital>
+            <hospital>北京市密云区医院</hospital>
+            <hospital>北京怀柔医院</hospital>
+            <hospital>北京友谊医院平谷医院</hospital>
+            <hospital>北京市昌平区医院</hospital>
+            <hospital>北京市大兴区人民医院</hospital>
+            <hospital>北京市顺义区医院</hospital>
+            <hospital>北京潞河医院</hospital>
+            <hospital>北京市房山区结核病防治院</hospital>
+            <hospital>北京市门头沟区医院</hospital>
+            <hospital>北京市京煤集团总医院</hospital>
+            <hospital>北京市石景山医院</hospital>
+            <hospital>北京市丰台中西医结合医院</hospital>
+            <hospital>北京市海淀医院</hospital>
+            <hospital>垂杨柳医院</hospital>
+            <hospital>北京市回民医院</hospital>
+            <hospital>北京市普仁医院</hospital>
+            <hospital>解放军第五医学中心</hospital>
+            <hospital>北京佑安医院</hospital>
+            <hospital>北京地坛医院</hospital>
+        </city>
+    </province>
+    <province provname="天津">
+        <city cityname="天津">
+        <hospital>天津市海河医院</hospital>
+        </city>
+    </province>
+    <province provname="河北">
+        <city cityname="石家庄">
+            <hospital>河北省胸科医院</hospital>
+            <hospital>石家庄市第五医院</hospital>
+            <hospital>辛集市第一医院</hospital>
+        </city>
+        <city cityname="唐山">
+            <hospital>唐山市传染病医院</hospital>
+        </city>
+        <city cityname="秦皇岛">
+            <hospital>秦皇岛市第三医院</hospital>
+        </city>
+        <city cityname="邯郸">
+            <hospital>邯郸市传染病医院</hospital>
+        </city>
+        <city cityname="邢台">
+            <hospital>邢台市第二医院</hospital>
+        </city>
+        <city cityname="保定">
+            <hospital>保定市传染病医院</hospital>
+            <hospital>定州市人民医院</hospital>
+        </city>
+        <city cityname="张家口">
+            <hospital>张家口市传染病医院</hospital>
+        </city>
+        <city cityname="承德">
+            <hospital>承德市第三医院</hospital>
+        </city>
+        <city cityname="沧州">
+            <hospital>沧州市传染病医院</hospital>
+        </city>
+        <city cityname="廊坊">
+            <hospital>廊坊市第三人民医院</hospital>
+        </city>
+        <city cityname="衡水">
+            <hospital>衡水市第三人民医院</hospital>
+        </city>
+    </province>
+    <province provname="山西">
+        <city cityname="太原">
+            <hospital>太原市第四人民医院</hospital>
+        </city>
+        <city cityname="大同">
+            <hospital>大同市第四人民医院</hospital>
+        </city>
+        <city cityname="阳泉">
+            <hospital>阳泉市第三人民医院</hospital>
+        </city>
+        <city cityname="长治">
+            <hospital>长治医学院附属和平医院</hospital>
+        </city>
+        <city cityname="晋城">
+            <hospital>晋城市第三人民医院</hospital>
+        </city>
+        <city cityname="朔州">
+            <hospital>朔州市人民医院</hospital>
+        </city>
+        <city cityname="晋中">
+            <hospital>晋中市第一人民医院</hospital>
+            <hospital>晋中市第二人民医院</hospital>
+            <hospital>晋中市传染病医院</hospital>
+        </city>
+        <city cityname="运城">
+            <hospital>运城市中心医院</hospital>
+            <hospital>运城市第一医院</hospital>
+            <hospital>运城市第二医院</hospital>
+        </city>
+        <city cityname="沂州">
+            <hospital>沂州市人民医院</hospital>
+        </city>
+        <city cityname="临汾">
+            <hospital>临汾市第三人民医院</hospital>
+        </city>
+        <city cityname="吕梁">
+            <hospital>吕梁市人民医院</hospital>
+            <hospital>山西省汾阳医院</hospital>
+        </city>
+    </province>
+    <province provname="内蒙古">
+        <city cityname="呼和浩特">
+            <hospital>内蒙古自治区第四医院</hospital>
+            <hospital>呼和浩特市第二医院</hospital>
+        </city>
+        <city cityname="包头">
+            <hospital>包头市第三医院</hospital>
+        </city>
+        <city cityname="乌海">
+            <hospital>乌海市人民医院</hospital>
+        </city>
+        <city cityname="赤峰">
+            <hospital>赤峰市传染病防治院</hospital>
+        </city>
+        <city cityname="通辽">
+            <hospital>通辽市传染病医院</hospital>
+        </city>
+        <city cityname="鄂尔多斯">
+            <hospital>鄂尔多斯市第二人民医院</hospital>
+        </city>
+        <city cityname="呼伦贝尔">
+            <hospital>呼伦贝尔市第二医院</hospital>
+        </city>
+        <city cityname="巴彦淖尔">
+            <hospital>巴彦淖尔市传染病院</hospital>
+        </city>
+        <city cityname="乌兰察布">
+            <hospital>乌兰察布市第四医院</hospital>
+        </city>
+        <city cityname="兴安盟">
+            <hospital>兴安盟第三人民医院</hospital>
+        </city>
+        <city cityname="锡林郭勒盟">
+            <hospital>锡林郭勒盟中心医院</hospital>
+        </city>
+        <city cityname="阿拉善盟">
+            <hospital>阿拉善盟中心医院</hospital>
+        </city>
+    </province>
+    <province provname="辽宁">
+        <city cityname="沈阳">
+            <hospital>中国医科大学附属第一医院</hospital>
+            <hospital>中国医科大学附属盛京医院</hospital>
+            <hospital>中国医科大学附属第四医院</hospital>
+            <hospital>辽宁中医药大学附属医院</hospital>
+            <hospital>辽宁省人民医院</hospital>
+            <hospital>沈阳市第六人民医院</hospital>
+            <hospital>沈阳市第十人民医院</hospital>
+        </city>
+        <city cityname="大连">
+            <hospital>大连医科大学附属第一医院</hospital>
+            <hospital>大连医科大学附属第二医院</hospital>
+            <hospital>大连市第六人民医院</hospital>
+        </city>
+        <city cityname="鞍山">
+            <hospital>鞍山市传染病医院</hospital>
+        </city>
+        <city cityname="抚顺">
+            <hospital>抚顺市中心医院</hospital>
+            <hospital>抚顺市传染病医院</hospital>
+        </city>
+        <city cityname="本溪">
+            <hospital>本溪市第六人民医院</hospital>
+        </city>
+        <city cityname="丹东">
+            <hospital>丹东市传染病医院</hospital>
+        </city>
+        <city cityname="锦州">
+            <hospital>锦州医科大学附属第一医院</hospital>
+            <hospital>锦州市传染病医院</hospital>
+        </city>
+        <city cityname="营口">
+            <hospital>营口市第三人民医院</hospital>
+        </city>
+        <city cityname="阜新">
+            <hospital>阜新市中心医院</hospital>
+            <hospital>辽建集团阜新矿总医院</hospital>
+        </city>
+        <city cityname="辽阳">
+            <hospital>辽阳市中心医院</hospital>
+            <hospital>辽阳市第三人民医院</hospital>
+            <hospital>辽阳市结核病医院</hospital>
+        </city>
+        <city cityname="盘锦">
+            <hospital>盘锦市中心人民医院</hospital>
+            <hospital>盘锦市辽油宝石花医院</hospital>
+            <hospital>盘锦市传染病医院</hospital>
+        </city>
+        <city cityname="铁岭">
+            <hospital>铁岭市中心医院</hospital>
+            <hospital>铁岭市传染病医院</hospital>
+        </city>
+        <city cityname="朝阳">
+            <hospital>朝阳市中心医院</hospital>
+            <hospital>朝阳市第二医院</hospital>
+        </city>
+        <city cityname="葫芦岛">
+            <hospital>葫芦岛市中心医院</hospital>
+        </city>
+    </province>
+    <province provname="吉林">
+        <city cityname="长春">
+            <hospital>吉林大学第一医院</hospital>
+            <hospital>吉林大学中日联谊医院</hospital>
+            <hospital>长春市传染病医院</hospital>
+            <hospital>榆林市人民医院</hospital>
+            <hospital>九台区人民医院</hospital>
+            <hospital>双阳区人民医院</hospital>
+            <hospital>农安县人民医院</hospital>
+            <hospital>德惠市人民医院</hospital>
+            <hospital>德惠市传染病医院</hospital>
+        </city>
+        <city cityname="吉林">
+            <hospital>吉林市中心医院</hospital>
+            <hospital>吉林市传染病医院</hospital>
+            <hospital>永吉县医院</hospital>
+            <hospital>舒兰市医院</hospital>
+            <hospital>磬石市医院</hospital>
+            <hospital>蛟河市医院</hospital>
+            <hospital>桦甸市医院</hospital>
+        </city>
+        <city cityname="四平">
+            <hospital>四平市中心人民医院</hospital>
+            <hospital>四平市传染病医院</hospital>
+            <hospital>梨树县第一人民医院</hospital>
+            <hospital>双辽市中心医院</hospital>
+            <hospital>伊通满族自治县第一人民医院</hospital>
+            <hospital>公主岭市中心医院</hospital>
+        </city>
+        <city cityname="辽源">
+            <hospital>辽源市胸科医院</hospital>
+            <hospital>东丰县医院</hospital>
+            <hospital>东辽县传染病医院</hospital>
+        </city>
+        <city cityname="通化">
+            <hospital>通化市中心医院</hospital>
+            <hospital>通化市人民医院</hospital>
+            <hospital>通化市第二人民医院</hospital>
+            <hospital>通化市第三人民医院</hospital>
+            <hospital>集安市医院</hospital>
+            <hospital>通化县人民医院</hospital>
+            <hospital>辉南县人民医院</hospital>
+            <hospital>吉林省柳河医院</hospital>
+            <hospital>东昌区人民医院</hospital>
+            <hospital>通化市中医院</hospital>
+            <hospital>梅河口市中心医院</hospital>
+        </city>
+        <city cityname="白山">
+            <hospital>白山市中心医院</hospital>
+            <hospital>白山市传染病医院</hospital>
+            <hospital>靖宇县人民医院</hospital>
+            <hospital>抚松县人民医院</hospital>
+            <hospital>临江市人民医院</hospital>
+            <hospital>长白朝鲜族自治县人民医院</hospital>
+            <hospital>江源区人民医院</hospital>
+            <hospital>长白山保护开发区中心医院</hospital>
+        </city>
+        <city cityname="松原">
+            <hospital>松原市中心医院</hospital>
+            <hospital>松原市中西医结合医院</hospital>
+            <hospital>松原吉林油田医院</hospital>
+            <hospital>前郭县医院</hospital>
+            <hospital>扶余市人民医院</hospital>
+            <hospital>长岭县人民医院</hospital>
+            <hospital>乾安县人民医院</hospital>
+        </city>
+        <city cityname="白城">
+            <hospital>白城中心医院</hospital>
+            <hospital>白城市传染病医院</hospital>
+            <hospital>大安市第一人民医院</hospital>
+            <hospital>白城市医院</hospital>
+            <hospital>洮南市人民医院</hospital>
+            <hospital>通榆县第一医院</hospital>
+            <hospital>镇赉市人民医院</hospital>
+        </city>
+        <city cityname="延边朝鲜族自治州">
+            <hospital>延边大学附属医院</hospital>
+            <hospital>延边第二人民医院</hospital>
+            <hospital>延吉市医院</hospital>
+            <hospital>珲春市医院</hospital>
+            <hospital>敦化市人民医院</hospital>
+            <hospital>图们市人民医院</hospital>
+            <hospital>龙井市人民医院</hospital>
+            <hospital>和龙市人民医院</hospital>
+            <hospital>汪清县人民医院</hospital>
+            <hospital>安图县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="黑龙江">
+        <city cityname="哈尔滨">
+            <hospital>黑龙江省传染病防治院</hospital>
+            <hospital>哈尔滨市医科大学附属第一医院</hospital>
+            <hospital>哈尔滨市医科大学附属第二医院</hospital>
+            <hospital>哈尔滨市医科大学附属第四医院</hospital>
+            <hospital>黑龙江省医院</hospital>
+            <hospital>哈尔滨市传染病院</hospital>
+            <hospital>哈尔滨市胸科医院</hospital>
+            <hospital>哈尔滨市南岗区人民医院</hospital>
+            <hospital>哈尔滨市道里区人民医院</hospital>
+            <hospital>哈尔滨市道外区太平人民医院</hospital>
+            <hospital>哈尔滨市香坊区人民医院</hospital>
+            <hospital>平房区人民医院</hospital>
+            <hospital>哈尔滨市呼兰区第一人民医院</hospital>
+            <hospital>哈尔滨市阿城区人民医院</hospital>
+            <hospital>双城区人民医院</hospital>
+            <hospital>哈尔滨市巴彦县人民医院</hospital>
+            <hospital>哈尔滨市宾县人民医院</hospital>
+            <hospital>哈尔滨市方正县人民医院</hospital>
+            <hospital>哈尔滨市通河县人民医院</hospital>
+            <hospital>哈尔滨市五常市人民医院</hospital>
+            <hospital>哈尔滨市延寿县人民医院</hospital>
+            <hospital>哈尔滨市依兰县人民医院</hospital>
+            <hospital>木兰县人民医院</hospital>
+            <hospital>尚志市人民医院</hospital>
+        </city>
+        <city cityname="齐齐哈尔">
+            <hospital>齐齐哈尔市第七医院</hospital>
+            <hospital>齐齐哈尔市第一医院</hospital>
+            <hospital>齐齐哈尔市中医医院</hospital>
+            <hospital>齐齐哈尔医学院附属第一医院</hospital>
+            <hospital>齐齐哈尔医学院附属第二医院</hospital>
+            <hospital>齐齐哈尔医学院附属第三医院</hospital>
+            <hospital>齐齐哈尔建华医院</hospital>
+            <hospital>齐齐哈尔市结核病防治院</hospital>
+            <hospital>昂昂溪区人民医院</hospital>
+            <hospital>碾子山区人民医院</hospital>
+            <hospital>梅里斯达斡尔族区人民医院</hospital>
+            <hospital>甘南县人民医院</hospital>
+            <hospital>依安县人民医院</hospital>
+            <hospital>克东县人民医院</hospital>
+            <hospital>泰来县人民医院</hospital>
+            <hospital>克山县第一人民医院</hospital>
+            <hospital>龙江县第一人民医院</hospital>
+            <hospital>富裕县人民医院</hospital>
+            <hospital>讷河县人民医院</hospital>
+            <hospital>拜泉县人民医院</hospital>
+        </city>
+        <city cityname="鸡西">
+            <hospital>鸡西市传染病医院</hospital>
+            <hospital>虎林市人民人民医院</hospital>
+            <hospital>鸡东县人民医院</hospital>
+            <hospital>密山市人民医院</hospital>
+            <hospital>黑龙江省农垦牡丹江管理局中心医院</hospital>
+        </city>
+        <city cityname="鹤岗">
+            <hospital>鹤岗市传染病院</hospital>
+            <hospital>黑龙江省农垦宝泉岭管理局中心医院</hospital>
+            <hospital>鹤岗市人民医院</hospital>
+            <hospital>鹤矿医院</hospital>
+            <hospital>绥滨县人民医院</hospital>
+            <hospital>萝北县人民医院</hospital>
+            <hospital>萝北县中医院</hospital>
+            <hospital>绥滨县中医院</hospital>
+        </city>
+        <city cityname="双鸭山">
+            <hospital>双鸭山市传染病医院</hospital>
+            <hospital>黑龙江省农垦红兴隆管理局中心医院</hospital>
+            <hospital>宝山区人民医院</hospital>
+            <hospital>岭东区人民医院</hospital>
+            <hospital>饶河县人民医院</hospital>
+            <hospital>集贤县人民医院</hospital>
+            <hospital>宝清县人民医院</hospital>
+        </city>
+        <city cityname="大庆">
+            <hospital>大庆市第二医院</hospital>
+            <hospital>林甸县医院</hospital>
+            <hospital>肇州县人民医院</hospital>
+            <hospital>杜蒙县人民医院</hospital>
+            <hospital>肇源县总医院</hospital>
+            <hospital>大庆市萨尔图区人民医院</hospital>
+            <hospital>红岗区人民医院</hospital>
+            <hospital>大庆市让胡路区人民医院</hospital>
+            <hospital>大庆市中西医结合医院</hospital>
+            <hospital>大庆市第五医院</hospital>
+        </city>
+        <city cityname="伊春">
+            <hospital>伊春市第五人民医院</hospital>
+            <hospital>嘉荫县人民医院</hospital>
+            <hospital>大箐山县人民医院</hospital>
+            <hospital>新青人民医院</hospital>
+            <hospital>南岔县人民医院</hospital>
+            <hospital>汤旺河区人民医院</hospital>
+            <hospital>金山屯人民医院</hospital>
+            <hospital>友好区人民医院</hospital>
+            <hospital>美溪人民医院</hospital>
+            <hospital>乌翠区人民医院</hospital>
+            <hospital>铁力市人民医院</hospital>
+        </city>
+        <city cityname="佳木斯">
+            <hospital>佳木斯市传染病医院</hospital>
+            <hospital>黑龙江农垦建三江人民医院</hospital>
+            <hospital>抚远市人民医院</hospital>
+            <hospital>桦南县人民医院</hospital>
+            <hospital>桦川县人民医院</hospital>
+            <hospital>同江市人民医院</hospital>
+            <hospital>富锦市中心医院</hospital>
+            <hospital>汤原县中心医院</hospital>
+            <hospital>鹤立林业局医院</hospital>
+        </city>
+        <city cityname="七台河">
+            <hospital>七台河市人民医院</hospital>
+            <hospital>勃利县人民医院</hospital>
+        </city>
+        <city cityname="牡丹江">
+            <hospital>牡丹江市康安医院</hospital>
+            <hospital>穆棱市人民医院</hospital>
+            <hospital>林口县人民医院</hospital>
+            <hospital>东宁市人民医院</hospital>
+            <hospital>绥芬河市人民医院</hospital>
+            <hospital>海林市人民医院</hospital>
+            <hospital>宁安市中心医院</hospital>
+        </city>
+        <city cityname="黑河">
+            <hospital>黑河市第一人民医院</hospital>
+            <hospital>五大连池市第一人民医院</hospital>
+            <hospital>孙吴县人民医院</hospital>
+            <hospital>逊克县人民医院</hospital>
+            <hospital>嫩江市人民医院</hospital>
+            <hospital>农垦九三管理局中心医院</hospital>
+            <hospital>北安市第一人民医院</hospital>
+        </city>
+        <city cityname="绥化">
+            <hospital>绥化市第一医院</hospital>
+            <hospital>绥棱县人民医院</hospital>
+            <hospital>明水县人民医院</hospital>
+            <hospital>北林区第一人民医院</hospital>
+            <hospital>肇东市第一医院</hospital>
+            <hospital>海伦市人民医院</hospital>
+            <hospital>青冈县人民医院</hospital>
+            <hospital>望奎县人民医院</hospital>
+            <hospital>安达市医院</hospital>
+            <hospital>兰西县人民医院</hospital>
+            <hospital>庆安县人民医院</hospital>
+        </city>
+        <city cityname="大兴安岭地区">
+            <hospital>地区人民医院</hospital>
+            <hospital>漠河市人民医院</hospital>
+            <hospital>塔河县人民医院</hospital>
+            <hospital>呼玛县人民医院</hospital>
+            <hospital>加格达奇区人民医院</hospital>
+            <hospital>松岭区人民医院</hospital>
+            <hospital>新林区人民医院</hospital>
+            <hospital>呼中区人民医院</hospital>
+        </city>
+    </province>
+    <province provname="上海">
+        <city cityname="上海">
+            <hospital>复旦大学附属儿科医院</hospital>
+            <hospital>上海市公共卫生临床中心</hospital>
+        </city>
+    </province>
+    <province provname="江苏">
+        <city cityname="南京">
+            <hospital>南京市第二医院</hospital>
+            <hospital>江苏省人民医院</hospital>
+            <hospital>东南大学附属中大医院</hospital>
+            <hospital>南京鼓楼医院</hospital>
+        </city>
+        <city cityname="无锡">
+            <hospital>无锡市传染病医院</hospital>
+            <hospital>无锡市人民医院</hospital>
+        </city>
+        <city cityname="徐州">
+            <hospital>徐州市传染病医院</hospital>
+            <hospital>徐州医科大学附属医院</hospital>
+        </city>
+        <city cityname="常州">
+            <hospital>常州市第三人民医院</hospital>
+            <hospital>常州市第一人民医院</hospital>
+        </city>
+        <city cityname="苏州">
+            <hospital>苏州市第五人民医院</hospital>
+            <hospital>苏州大学附属第一医院</hospital>
+        </city>
+        <city cityname="南通">
+            <hospital>南通市第三人民医院</hospital>
+            <hospital>南通大学附属医院</hospital>
+        </city>
+        <city cityname="连云港">
+            <hospital>连云港第四人民医院</hospital>
+            <hospital>连云港第一人民医院</hospital>
+        </city>
+        <city cityname="淮安">
+            <hospital>淮安市传染病医院</hospital>
+            <hospital>淮安市第一人民医院</hospital>
+        </city>
+        <city cityname="盐城">
+            <hospital>盐城第二人民医院</hospital>
+            <hospital>盐城市第一人民医院</hospital>
+        </city>
+        <city cityname="扬州">
+            <hospital>扬州市传染医院</hospital>
+            <hospital>苏北人民医院</hospital>
+        </city>
+        <city cityname="镇江">
+            <hospital>镇江市传染病医院</hospital>
+            <hospital>镇江市第一人民医院</hospital>
+        </city>
+        <city cityname="泰州">
+            <hospital>泰州市人民医院</hospital>
+            <hospital>泰兴市人民医院</hospital>
+        </city>
+        <city cityname="宿迁">
+            <hospital>宿迁市人民医院</hospital>
+            <hospital>宿迁市第一人民医院</hospital>
+        </city>
+    </province>
+    <province provname="浙江">
+        <city cityname="杭州">
+            <hospital>杭州市西溪医院</hospital>
+            <hospital>萧山区第一人民医院</hospital>
+            <hospital>余杭区第一人民医院</hospital>
+            <hospital>富阳区人民医院</hospital>
+            <hospital>桐庐县第一人民医院</hospital>
+            <hospital>临安区人民医院</hospital>
+            <hospital>建德市第二人民医院</hospital>
+            <hospital>淳安县第一人民医院</hospital>
+        </city>
+        <city cityname="宁波">
+            <hospital>中国科学院大学宁波华美医院</hospital>
+            <hospital>宁波市医疗中心李惠利医院</hospital>
+            <hospital>宁波市第一医院</hospital>
+            <hospital>宁波大学医学院附属医院</hospital>
+            <hospital>宁波市妇女儿童医院</hospital>
+            <hospital>宁波市第九医院</hospital>
+            <hospital>宁波市镇海区人民医院</hospital>
+            <hospital>宁波市北仑区人民医院</hospital>
+            <hospital>宁波市鄞州人民医院</hospital>
+            <hospital>宁波市鄞州区第二人民医院</hospital>
+            <hospital>宁波市奉化区人民医院</hospital>
+            <hospital>余姚市人民医院</hospital>
+            <hospital>慈溪市人民医院</hospital>
+            <hospital>宁海县人民医院</hospital>
+            <hospital>象山县第一人民医院</hospital>
+        </city>
+        <city cityname="温州">
+            <hospital>温州市第六人民医院</hospital>
+            <hospital>温鹿城区人民医院</hospital>
+            <hospital>瓯海区第三人民医院</hospital>
+            <hospital>龙湾区第一人民医院</hospital>
+            <hospital>洞头区人民医院</hospital>
+            <hospital>瑞安市人民医院</hospital>
+            <hospital>乐清市人民医院</hospital>
+            <hospital>平阳县人民医院</hospital>
+            <hospital>苍南县人民医院</hospital>
+            <hospital>永嘉县人民医院</hospital>
+            <hospital>文成县人民医院</hospital>
+            <hospital>泰顺县人民医院</hospital>
+        </city>
+        <city cityname="嘉兴">
+            <hospital>嘉兴市第一医院</hospital>
+            <hospital>嘉善县第一人民医院</hospital>
+            <hospital>平湖市第一人民医院</hospital>
+            <hospital>海盐县人民医院</hospital>
+            <hospital>海宁市第一人民医院</hospital>
+            <hospital>桐乡市第一人民医院</hospital>
+        </city>
+        <city cityname="湖州">
+            <hospital>湖州市中心医院</hospital>
+            <hospital>湖州市南浔区人民医院</hospital>
+            <hospital>德清县人民医院</hospital>
+            <hospital>长兴县人民医院</hospital>
+            <hospital>安吉县第二人民医院</hospital>
+        </city>
+        <city cityname="绍兴">
+            <hospital>绍兴市人民医院</hospital>
+            <hospital>绍兴文理学院附属医院</hospital>
+            <hospital>绍兴市中心医院</hospital>
+            <hospital>诸暨市人民医院</hospital>
+            <hospital>上虞人民医院</hospital>
+            <hospital>嵊州市人民医院</hospital>
+            <hospital>新昌县人民医院</hospital>
+        </city>
+        <city cityname="金华">
+            <hospital>金华市中心医院</hospital>
+            <hospital>东阳市人民医院</hospital>
+            <hospital>兰溪市人民医院</hospital>
+            <hospital>义乌市中心医院</hospital>
+            <hospital>永康市第一人民医院</hospital>
+            <hospital>武义县第一人民医院</hospital>
+            <hospital>蒲江县第一医院</hospital>
+            <hospital>磐安县人民医院</hospital>
+        </city>
+        <city cityname="衢州">
+            <hospital>衢州市人民医院</hospital>
+            <hospital>常山县人民医院</hospital>
+            <hospital>江山市人民医院</hospital>
+            <hospital>开化县中心医院</hospital>
+            <hospital>龙游县人民医院</hospital>
+            <hospital>衢江县人民医院</hospital>
+            <hospital>柯城区人民医院</hospital>
+        </city>
+        <city cityname="舟山">
+            <hospital>衢舟山医院</hospital>
+            <hospital>定海区中心医院</hospital>
+            <hospital>普陀医院</hospital>
+            <hospital>岱山县第一人民医院</hospital>
+            <hospital>嵊泗县人民医院</hospital>
+        </city>
+        <city cityname="台州">
+            <hospital>浙江省台州医院</hospital>
+            <hospital>台州恩泽医疗中心</hospital>
+            <hospital>台州市第一人民医院</hospital>
+            <hospital>台州市立医院</hospital>
+            <hospital>临海市第一人民医院</hospital>
+            <hospital>临海市第二人民医院</hospital>
+            <hospital>温岭市第一人民医院</hospital>
+            <hospital>玉环市人民医院</hospital>
+            <hospital>天台县人民医院</hospital>
+            <hospital>仙居县人民医院</hospital>
+            <hospital>三门县人民医院</hospital>
+        </city>
+        <city cityname="丽水">
+            <hospital>丽水市中心医院</hospital>
+            <hospital>丽水市人民医院</hospital>
+            <hospital>龙泉市人民医院</hospital>
+            <hospital>青田县人民医院</hospital>
+            <hospital>云和县人民医院</hospital>
+            <hospital>庆元县人民医院</hospital>
+            <hospital>缙云县人民医院</hospital>
+            <hospital>遂昌县人民医院</hospital>
+            <hospital>松阳县人民医院</hospital>
+            <hospital>景宁畲族自治县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="安徽">
+        <city cityname="合肥">
+            <hospital>安徽医科大学附属巢湖医院</hospital>
+            <hospital>安徽医科大学第二附属医院</hospital>
+            <hospital>安徽医科大学第一附属医院</hospital>
+            <hospital>肥东县人民医院</hospital>
+            <hospital>肥西县人民医院</hospital>
+            <hospital>长丰县人民医院</hospital>
+            <hospital>庐江县人民医院</hospital>
+            <hospital>合肥市第二人民医院</hospital>
+            <hospital>合肥市滨湖医院</hospital>
+            <hospital>安徽省第二人民医院</hospital>
+            <hospital>安徽省儿童医院</hospital>
+        </city>
+        <city cityname="芜湖">
+            <hospital>皖南医学院弋矶山医院</hospital>
+            <hospital>繁昌县医院</hospital>
+            <hospital>南陵县医院</hospital>
+            <hospital>芜湖县医院</hospital>
+            <hospital>无为县医院</hospital>
+            <hospital>芜湖市二院</hospital>
+            <hospital>芜湖市传染病医院</hospital>
+        </city>
+        <city cityname="蚌埠">
+            <hospital>蚌埠医学院第一附属医院</hospital>
+            <hospital>固镇县人民医院</hospital>
+            <hospital>怀远县第二人民医院</hospital>
+            <hospital>五河县人民医院</hospital>
+            <hospital>蚌埠市传染病医院</hospital>
+        </city>
+        <city cityname="淮南">
+            <hospital>寿县县医院</hospital>
+            <hospital>凤台县医院</hospital>
+            <hospital>淮南市第一人民医院</hospital>
+        </city>
+        <city cityname="马鞍山">
+            <hospital>当涂县人民医院</hospital>
+            <hospital>和县人民医院</hospital>
+            <hospital>含山县人民医院</hospital>
+            <hospital>马鞍山市传染病医院</hospital>
+        </city>
+        <city cityname="淮北">
+            <hospital>淮北濉溪县医院</hospital>
+            <hospital>淮北旷工总医院</hospital>
+            <hospital>淮北市人民医院</hospital>
+        </city>
+        <city cityname="铜陵">
+            <hospital>义安区人民医院</hospital>
+            <hospital>枞阳县人民医院</hospital>
+            <hospital>铜陵市人民医院</hospital>
+        </city>
+        <city cityname="安庆">
+            <hospital>宿松县人民医院</hospital>
+            <hospital>望江县人民医院</hospital>
+            <hospital>太湖县人民医院</hospital>
+            <hospital>岳西县医院</hospital>
+            <hospital>潜山市立医院</hospital>
+            <hospital>怀宁县人民医院</hospital>
+            <hospital>桐城市人民医院</hospital>
+            <hospital>安庆市传染病医院</hospital>
+        </city>
+        <city cityname="黄山">
+            <hospital>祁门县人民医院</hospital>
+            <hospital>黟县人民医院</hospital>
+            <hospital>休宁县人民医院</hospital>
+            <hospital>歙县人民医院</hospital>
+            <hospital>黄山区人民医院</hospital>
+            <hospital>黄山市第三人民医院</hospital>
+            <hospital>黄山昌仁医院</hospital>
+        </city>
+        <city cityname="滁州">
+            <hospital>滁州市第二人民医院</hospital>
+            <hospital>来安县人民医院</hospital>
+            <hospital>全椒县人民医院</hospital>
+            <hospital>凤阳县人民医院</hospital>
+            <hospital>定远县总医院</hospital>
+            <hospital>明光市人民医院</hospital>
+            <hospital>天长市人民医院</hospital>
+        </city>
+        <city cityname="阜阳">
+            <hospital>界首市人民医院</hospital>
+            <hospital>颍上县人民医院</hospital>
+            <hospital>阜南县人民医院北区</hospital>
+            <hospital>太和县人民医院</hospital>
+            <hospital>临泉县人民医院</hospital>
+            <hospital>阜阳市肿瘤医院</hospital>
+            <hospital>阜阳市第五人民医院</hospital>
+            <hospital>阜阳市妇女儿童医院</hospital>
+            <hospital>阜阳市第二人民医院</hospital>
+        </city>
+    </province>
+    <province provname="福建">
+        <city cityname="福州">
+            <hospital>平潭综合试验区医院</hospital>
+            <hospital>永泰县医院</hospital>
+            <hospital>闽清县医院</hospital>
+            <hospital>罗源县医院</hospital>
+            <hospital>连江县医院</hospital>
+            <hospital>闽侯县医院</hospital>
+            <hospital>福清市医院</hospital>
+            <hospital>长乐区医院</hospital>
+            <hospital>马尾区医院</hospital>
+            <hospital>晋安区医院</hospital>
+            <hospital>福州肺科医院</hospital>
+        </city>
+        <city cityname="厦门">
+            <hospital>厦门大学附属第一医院杏林分院</hospital>
+        </city>
+        <city cityname="莆田">
+            <hospital>秀屿区医院</hospital>
+            <hospital>涵江区医院</hospital>
+            <hospital>荔城区医院</hospital>
+            <hospital>仙游县医院</hospital>
+            <hospital>莆田市第一医院</hospital>
+            <hospital>莆田学院附属医院</hospital>
+        </city>
+        <city cityname="三明">
+            <hospital>大田县总医院</hospital>
+            <hospital>尤溪县总医院</hospital>>
+            <hospital>建宁县总医院</hospital>
+            <hospital>泰宁县总医院</hospital>>
+            <hospital>将乐县总医院</hospital>
+            <hospital>宁化县总医院</hospital>>
+            <hospital>清流县总医院</hospital>
+            <hospital>明溪县总医院</hospital>>
+            <hospital>沙县总医院</hospital>
+            <hospital>永安总医院</hospital>
+            <hospital>三明市中西医结合医院</hospital>
+            <hospital>三明市第一医院</hospital>
+        </city>
+        <city cityname="泉州">
+            <hospital>德化县医院</hospital>
+            <hospital>永春县医院</hospital>>
+            <hospital>泉州市光前医院</hospital>
+            <hospital>南安市医院</hospital>>
+            <hospital>泉港区医院</hospital>
+            <hospital>台商投资区医院</hospital>>
+            <hospital>石狮市医院</hospital>
+            <hospital>惠安县医院</hospital>>
+            <hospital>晋江市医院</hospital>
+            <hospital>洛江区医院</hospital>
+            <hospital>泉州市第一医院</hospital>
+        </city>
+        <city cityname="漳州">
+            <hospital>古雷港区医院</hospital>
+            <hospital>漳州市第五医院</hospital>>
+            <hospital>漳州招商局经济技术开发区第一医院</hospital>
+            <hospital>长泰县医院</hospital>>
+            <hospital>华安县总医院</hospital>
+            <hospital>南靖县医院</hospital>>
+            <hospital>平和县医院</hospital>
+            <hospital>诏安县总医院</hospital>>
+            <hospital>东山县医院</hospital>
+            <hospital>云霄县医院</hospital>
+            <hospital>漳浦县医院</hospital>
+        </city>
+        <city cityname="南平">
+            <hospital>松溪县医院</hospital>
+            <hospital>政和县医院</hospital>>
+            <hospital>蒲城县医院</hospital>
+            <hospital>武夷山市立医院</hospital>>
+            <hospital>建瓯市立医院</hospital>
+            <hospital>南平市建阳第一医院</hospital>>
+            <hospital>光泽县医院</hospital>
+            <hospital>顺昌县医院</hospital>>
+            <hospital>邵武市立医院</hospital>
+            <hospital>南平市人民医院</hospital>
+            <hospital>南平市第二医院</hospital>
+            <hospital>南平市第一医院</hospital>
+        </city>
+        <city cityname="龙岩">
+            <hospital>连城县医院</hospital>
+            <hospital>汀州医院</hospital>>
+            <hospital>漳平市医院</hospital>
+            <hospital>武平县医院</hospital>>
+            <hospital>上杭县医院</hospital>
+            <hospital>永定区医院</hospital>>
+            <hospital>龙岩人民医院</hospital>
+            <hospital>龙岩市中医院</hospital>>
+            <hospital>龙岩市第二医院</hospital>
+            <hospital>龙岩市第一医院</hospital>
+        </city>
+        <city cityname="宁德">
+            <hospital>霞浦县医院</hospital>
+            <hospital>福安市医院</hospital>>
+            <hospital>蕉城区医院</hospital>
+            <hospital>福鼎市医院</hospital>>
+            <hospital>宁德市闽东医院</hospital>
+            <hospital>宁德市医院</hospital>>
+            <hospital>古田县医院</hospital>
+            <hospital>周宁县医院</hospital>>
+            <hospital>寿宁县医院</hospital>
+            <hospital>屏南县医院</hospital>
+            <hospital>柘荣县医院</hospital>
+        </city>
+    </province>
+    <province provname="江西">
+        <city cityname="南昌">
+            <hospital>南昌大学第一附属医院</hospital>
+            <hospital>江西省胸科医院</hospital>
+            <hospital>南昌市第九医院</hospital>
+            <hospital>南昌县人民医院</hospital>
+            <hospital>新建区人民医院</hospital>
+            <hospital>进贤县人民医院</hospital>
+            <hospital>安义县人民医院</hospital>
+        </city>
+        <city cityname="景德镇">
+            <hospital>景德镇市第一人民医院</hospital>
+            <hospital>乐平市人民医院</hospital>
+            <hospital>浮梁县人民医院</hospital>
+        </city>
+        <city cityname="萍乡">
+            <hospital>萍乡市第二人民医院</hospital>
+            <hospital>安源区人民医院</hospital>
+            <hospital>湘东区人民医院</hospital>
+            <hospital>芦溪县人民医院</hospital>
+            <hospital>上栗县人民医院</hospital>
+            <hospital>莲花县人民医院</hospital>
+        </city>
+        <city cityname="九江">
+            <hospital>九江市第三人民医院</hospital>
+            <hospital>修水县人民医院</hospital>
+            <hospital>武宁县人民医院</hospital>
+            <hospital>永修县人民医院</hospital>
+            <hospital>德安县人民医院</hospital>
+            <hospital>共青城市人民医院</hospital>
+        </city>
+        <city cityname="新余">
+            <hospital>新余市人民医院</hospital>
+            <hospital>分宜县人民医院</hospital>
+        </city>
+        <city cityname="鹰潭">
+            <hospital>鹰潭市人民医院</hospital>
+            <hospital>余江区人民医院</hospital>
+            <hospital>贵溪市人民医院</hospital>
+        </city>
+        <city cityname="赣州">
+            <hospital>赣州市第五人民医院</hospital>
+            <hospital>赣州市人民医院</hospital>
+            <hospital>赣南医学院第一附属医院</hospital>
+            <hospital>赣州市立医院</hospital>
+            <hospital>南康区第一人民医院</hospital>
+            <hospital>赣县区人民医院</hospital>
+            <hospital>信丰县人民医院</hospital>
+            <hospital>大余县人民医院</hospital>
+            <hospital>上犹县人民医院</hospital>
+            <hospital>崇义县人民医院</hospital>
+            <hospital>安远县人民医院</hospital>
+            <hospital>龙南县第一人民医院</hospital>
+            <hospital>全南县人民医院</hospital>
+            <hospital>定南县第一人民医院</hospital>
+            <hospital>兴国县人民医院</hospital>
+            <hospital>宁都县人民医院</hospital>
+            <hospital>于都县人民医院</hospital>
+        </city>
+        <city cityname="吉安">
+            <hospital>吉安市中心人民医院</hospital>
+            <hospital>吉安市第一人民医院</hospital>
+            <hospital>吉安市中医院</hospital>
+            <hospital>井冈山市第二人民医院</hospital>
+            <hospital>吉安县人民医院</hospital>
+            <hospital>新干线人民医院</hospital>
+            <hospital>永丰县人民医院</hospital>
+            <hospital>峡江县人民医院</hospital>
+            <hospital>吉水县人民医院</hospital>
+            <hospital>泰和县人民医院</hospital>
+            <hospital>万安县人民医院</hospital>
+            <hospital>遂川县人民医院</hospital>
+            <hospital>安福县人民医院</hospital>
+            <hospital>永新县人民医院</hospital>
+        </city>
+        <city cityname="宜春">
+            <hospital>宜春市人民医院</hospital>
+            <hospital>丰城市人民医院</hospital>
+            <hospital>靖安县人民医院</hospital>
+            <hospital>高安市人民医院</hospital>
+            <hospital>樟树市人民医院</hospital>
+            <hospital>上高县人民医院</hospital>
+            <hospital>宜春市第二人民医院</hospital>
+            <hospital>万载县人民医院</hospital>
+            <hospital>宜丰县人民医院</hospital>
+            <hospital>铜鼓县人民医院</hospital>
+        </city>
+        <city cityname="抚州">
+            <hospital>抚州市第一人民医院</hospital>
+            <hospital>广昌县人民医院</hospital>
+            <hospital>金溪县人民医院</hospital>
+            <hospital>金溪县中医院</hospital>
+            <hospital>资溪县人民医院</hospital>
+            <hospital>崇仁县人民医院</hospital>
+            <hospital>南丰县人民医院</hospital>
+            <hospital>东乡区人民医院</hospital>
+            <hospital>乐安县人民医院</hospital>
+            <hospital>黎川县人民医院</hospital>
+            <hospital>临川市第一人民医院</hospital>
+            <hospital>宜黄县人民医院</hospital>
+            <hospital>南城县人民医院</hospital>
+        </city>
+        <city cityname="上饶">
+            <hospital>上饶市人民医院</hospital>
+            <hospital>上饶市第二人民医院</hospital>
+            <hospital>上饶市广信区人民医院</hospital>
+            <hospital>广丰区人民医院</hospital>
+            <hospital>万年县人民医院</hospital>
+            <hospital>德兴市人民医院</hospital>
+            <hospital>鄱阳县人民医院</hospital>
+            <hospital>铅山县人民医院</hospital>
+            <hospital>婺源县人民医院</hospital>
+            <hospital>弋阳县人民医院</hospital>
+            <hospital>余干县人民医院</hospital>
+            <hospital>玉山县人民医院</hospital>
+            <hospital>横峰县人民医院</hospital>
+            <hospital>信州区市立医院</hospital>
+        </city>
+    </province>
+    <province provname="山东">
+        <city cityname="济南">
+            <hospital>历城区人民医院</hospital>
+            <hospital>商河县人民医院</hospital>
+            <hospital>济阳区人民医院</hospital>
+            <hospital>平阴县人民医院</hospital>
+            <hospital>莱芜钢铁集团有限公司医院</hospital>
+            <hospital>济南市莱芜人民医院</hospital>
+            <hospital>济南市章丘区人民医院</hospital>
+            <hospital>历城区中医医院</hospital>
+            <hospital>长清区人民医院</hospital>
+            <hospital>山东省立第三医院</hospital>
+            <hospital>济南市槐荫人民医院</hospital>
+            <hospital>济南市人民医院</hospital>
+            <hospital>省胸科医院</hospital>
+            <hospital>济南市传染病医院</hospital>
+            <hospital>历下区人民医院</hospital>
+            <hospital>济南市中心医院</hospital>
+        </city>
+        <city cityname="青岛">
+            <hospital>青岛市莱西市人民医院</hospital>
+            <hospital>青岛市平度市人民医院</hospital>
+            <hospital>青岛市胶州市人民医院</hospital>
+            <hospital>青岛市胶州中心医院</hospital>
+            <hospital>青岛市即墨区人民医院</hospital>
+            <hospital>青岛市城阳区人民医院</hospital>
+            <hospital>青岛市黄岛区人民医院</hospital>
+            <hospital>青岛市妇女儿童医院</hospital>
+            <hospital>青岛市莱胸科医院</hospital>
+            <hospital>青岛市市立医院</hospital>
+            <hospital>青岛大学附属医院</hospital>
+            <hospital>青岛山大齐鲁医院</hospital>
+        </city>
+        <city cityname="淄博">
+            <hospital>淄博市桓台县人民医院</hospital>
+            <hospital>淄博市临淄区人民医院</hospital>
+            <hospital>淄博市周村区人民医院</hospital>
+            <hospital>淄博市淄川区医院</hospital>
+            <hospital>淄博市博山区医院</hospital>
+            <hospital>淄博市张店区人民医院</hospital>
+            <hospital>淄博市传染病医院</hospital>
+            <hospital>淄博市妇幼保健院</hospital>
+            <hospital>淄博市第一医院</hospital>
+            <hospital>淄博市中心医院</hospital>
+            <hospital>淄博市沂源县人民医院</hospital>
+            <hospital>淄博市高青县人民医院</hospital>
+        </city>
+        <city cityname="枣庄">
+            <hospital>滕州市中心人民医院</hospital>
+            <hospital>台儿庄区人民医院</hospital>
+            <hospital>峄城区人民医院</hospital>
+            <hospital>市中区人民医院</hospital>
+            <hospital>山亭区人民医院</hospital>
+            <hospital>薛城区人民医院</hospital>
+            <hospital>滕州市中医医院</hospital>
+            <hospital>枣庄市王开传染病医院</hospital>
+            <hospital>枣庄矿业集团中心医院</hospital>
+            <hospital>枣庄市立医院</hospital>
+        </city>
+        <city cityname="东营">
+            <hospital>东营市第五人民医院</hospital>
+            <hospital>东营市东营区人民医院</hospital>
+            <hospital>利津县第二人民医院</hospital>
+            <hospital>利津县中心医院</hospital>
+            <hospital>广饶县人民医院</hospital>
+            <hospital>河口区人民医院</hospital>
+            <hospital>东营胜利医院</hospital>
+            <hospital>胜利油田中心医院</hospital>
+            <hospital>东营市人民医院</hospital>
+        </city>
+        <city cityname="烟台">
+            <hospital>滨州医学院烟台附属医院</hospital>
+            <hospital>长岛县人民医院</hospital>
+            <hospital>栖霞市人民医院</hospital>
+            <hospital>烟台市莱阳中心医院</hospital>
+            <hospital>海阳市人民医院</hospital>
+            <hospital>招远市人民医院</hospital>
+            <hospital>蓬莱市人民医院</hospital>
+            <hospital>莱州市人民医院</hospital>
+            <hospital>龙口市人民医院</hospital>
+            <hospital>烟台业达医院</hospital>
+            <hospital>福山区人民医院</hospital>
+            <hospital>毓璜顶医院莱山分院</hospital>
+            <hospital>烟台肺科医院</hospital>
+            <hospital>烟台市奇山医院</hospital>
+        </city>
+        <city cityname="潍坊">
+            <hospital>潍坊市益都中心医院</hospital>
+            <hospital>寒亭区人民医院</hospital>
+            <hospital>坊子区人民医院</hospital>
+            <hospital>解放军第80集团军医院</hospital>
+            <hospital>潍坊市第二人民医院</hospital>
+            <hospital>阳光融合医院</hospital>
+            <hospital>潍坊医学院附属医院</hospital>
+            <hospital>潍坊市人民医院</hospital>
+            <hospital>青州市人民医院</hospital>
+            <hospital>诸城市人民医院</hospital>
+            <hospital>寿光市人民医院</hospital>
+            <hospital>安丘市人民医院</hospital>
+            <hospital>高密市人民医院</hospital>
+            <hospital>昌邑市人民医院</hospital>
+        </city>
+        <city cityname="济宁">
+            <hospital>梁山县人民医院</hospital>
+            <hospital>汶上县人民医院</hospital>
+            <hospital>嘉祥县人民医院</hospital>
+            <hospital>金乡县人民医院</hospital>
+            <hospital>鱼台县人民医院</hospital>
+            <hospital>微山县医院</hospital>
+            <hospital>兖矿新里程医院</hospital>
+            <hospital>邹城市人民医院千泉院区</hospital>
+            <hospital>邹城市人民医院孟子湖院区</hospital>
+            <hospital>泗水县人民医院</hospital>
+            <hospital>曲阜市人民医院</hospital>
+            <hospital>济宁市兖州区人民医院</hospital>
+            <hospital>济宁市兖州区铁路医院</hospital>
+            <hospital>济宁市传染病医院</hospital>
+            <hospital>济宁医学院附属医院</hospital>
+            <hospital>济宁市第一人民医院</hospital>
+        </city>
+        <city cityname="泰安">
+            <hospital>东平县沙河站镇中心卫生院</hospital>
+            <hospital>东平县人民医院</hospital>
+            <hospital>宁阳县第二人民医院</hospital>
+            <hospital>肥城市人民医院</hospital>
+            <hospital>宁阳县第一人民医院</hospital>
+            <hospital>肥城矿业集团中心医院</hospital>
+            <hospital>新汶矿业集团有限责任公司中心医院</hospital>
+            <hospital>新泰市人民医院</hospital>
+            <hospital>泰安市第一人民医院</hospital>
+            <hospital>泰安市中医二院</hospital>
+            <hospital>泰安市中心医院分院</hospital>
+            <hospital>泰安市中心医院</hospital>
+        </city>
+        <city cityname="威海">
+            <hospital>乳山市人民医院</hospital>
+            <hospital>荣成市人民医院</hospital>
+            <hospital>威海市中心医院</hospital>
+            <hospital>威海卫中心医院</hospital>
+            <hospital>威海市胸科医院</hospital>
+        </city>
+        <city cityname="日照">
+            <hospital>五莲县人民医院</hospital>
+            <hospital>岚山区人民医院</hospital>
+            <hospital>日照市中心医院</hospital>
+            <hospital>日照市人民医院</hospital>
+            <hospital>莒县胸科医院</hospital>
+        </city>
+    </province>
+    <province provname="河南">
+        <city cityname="郑州">
+            <hospital>中牟县人民医院</hospital>
+            <hospital>登封市人民医院</hospital>
+            <hospital>新密市中医院</hospital>
+            <hospital>新郑市公立人民医院</hospital>
+            <hospital>荥阳市人民医院</hospital>
+            <hospital>郑州市第六人民医院</hospital>
+            <hospital>郑州大学第一附属医院</hospital>
+            <hospital>河南省人民医院</hospital>
+        </city>
+        <city cityname="开封">
+            <hospital>兰考县中心医院</hospital>
+            <hospital>通许县人民医院</hospital>
+            <hospital>杞县人民医院</hospital>
+            <hospital>尉氏县人民医院</hospital>
+            <hospital>开封市祥符区第一人民医院</hospital>
+            <hospital>开封市传染病医院</hospital>
+        </city>
+        <city cityname="洛阳">
+            <hospital>栾川县人民医院</hospital>
+            <hospital>嵩县人民医院</hospital>
+            <hospital>洛宁县人民医院</hospital>
+            <hospital>汝阳县人民医院</hospital>
+            <hospital>宜阳县人民医院</hospital>
+            <hospital>伊川县人民医院</hospital>
+            <hospital>新安县人民医院</hospital>
+            <hospital>孟津县人民医院</hospital>
+            <hospital>偃师市人民医院</hospital>
+            <hospital>洛阳市传染病医院</hospital>
+        </city>
+        <city cityname="平顶山">
+            <hospital>鲁山县人民医院</hospital>
+            <hospital>翔县人民医院</hospital>
+            <hospital>宝丰县人民医院</hospital>
+            <hospital>叶县人民医院</hospital>
+            <hospital>舞钢市人民医院</hospital>
+            <hospital>平顶山市第一人民医院</hospital>
+        </city>
+        <city cityname="安阳">
+            <hospital>安阳县人民医院</hospital>
+            <hospital>汤阴县人民医院</hospital>
+            <hospital>内黄县人民医院</hospital>
+            <hospital>林州市人民医院</hospital>
+            <hospital>安阳市第五人民医院</hospital>
+        </city>
+        <city cityname="鹤壁">
+            <hospital>淇县人民医院</hospital>
+            <hospital>浚县人民医院</hospital>
+            <hospital>鹤壁市第三人民医院</hospital>
+        </city>
+        <city cityname="新乡">
+            <hospital>长垣市人民医院</hospital>
+            <hospital>新乡县人民医院</hospital>
+            <hospital>获嘉县人民医院</hospital>
+            <hospital>封丘县人民医院</hospital>
+            <hospital>原阳县人民医院</hospital>
+            <hospital>延津县人民医院</hospital>
+            <hospital>卫辉市人民医院</hospital>
+            <hospital>新乡市传染病医院</hospital>
+            <hospital>新乡市中心医院</hospital>
+        </city>
+        <city cityname="焦作">
+            <hospital>孟州复兴医院</hospital>
+            <hospital>博爱县人民医院</hospital>
+            <hospital>温县人民医院</hospital>
+            <hospital>修武县人民医院</hospital>
+            <hospital>沁阳市人民医院</hospital>
+            <hospital>焦作市第三人民医院</hospital>
+        </city>
+        <city cityname="濮阳">
+            <hospital>台前县人民医院</hospital>
+            <hospital>范县人民医院</hospital>
+            <hospital>清丰第二人民医院</hospital>
+            <hospital>南乐县人民医院</hospital>
+            <hospital>濮阳县人民医院</hospital>
+            <hospital>濮阳市第五人民医院</hospital>
+        </city>
+        <city cityname="许昌">
+            <hospital>许昌市人民医院</hospital>
+            <hospital>禹州市人民医院</hospital>
+            <hospital>长葛市人民医院</hospital>
+            <hospital>襄城县人民医院</hospital>
+            <hospital>鄢陵县人民医院</hospital>
+            <hospital>许昌市中心医院</hospital>
+        </city>
+        <city cityname="漯河">
+            <hospital>临颍县人民医院</hospital>
+            <hospital>舞阳县人民医院</hospital>
+            <hospital>漯河市中心医院</hospital>
+        </city>
+        <city cityname="三门峡">
+            <hospital>灵宝市第一人民医院</hospital>
+            <hospital>卢氏县人民医院</hospital>
+            <hospital>滝池县人民医院</hospital>
+            <hospital>义马煤业集团股份有限公司总医院</hospital>
+            <hospital>三门峡市中心医院</hospital>
+        </city>
+        <city cityname="南阳">
+            <hospital>西峡县人民医院</hospital>
+            <hospital>淅川县人民医院</hospital>
+            <hospital>社旗县人民医院</hospital>
+            <hospital>内乡县人民医院</hospital>
+            <hospital>镇平县人民医院</hospital>
+            <hospital>方城县人民医院</hospital>
+            <hospital>唐河县人民医院</hospital>
+            <hospital>桐柏县中心医院</hospital>
+            <hospital>新野县人民医院</hospital>
+            <hospital>南召县人民医院</hospital>
+            <hospital>南阳市中心医院</hospital>
+        </city>
+        <city cityname="商丘">
+            <hospital>夏邑县人民医院</hospital>
+            <hospital>民权县人民医院</hospital>
+            <hospital>宁陵县人民医院</hospital>
+            <hospital>柘城县人民医院</hospital>
+            <hospital>虞城县人民医院</hospital>
+            <hospital>睢县人民医院</hospital>
+            <hospital>商丘市立医院</hospital>
+        </city>
+        <city cityname="信阳">
+            <hospital>光山县人民医院</hospital>
+            <hospital>新县人民医院</hospital>
+            <hospital>商城县人民医院</hospital>
+            <hospital>息县人民医院</hospital>
+            <hospital>罗山县人民医院</hospital>
+            <hospital>淮滨县人民医院</hospital>
+            <hospital>信阳市第四人民医院</hospital>
+            <hospital>潢川县人民医院</hospital>
+            <hospital>信阳市第三人民医院</hospital>
+            <hospital>信阳市中心医院</hospital>
+        </city>
+        <city cityname="周口">
+            <hospital>扶沟县人民医院</hospital>
+            <hospital>太康县人民医院</hospital>
+            <hospital>郸城县人民医院</hospital>
+            <hospital>沈丘县人民医院</hospital>
+            <hospital>西华县人民医院</hospital>
+            <hospital>淮阳县人民医院</hospital>
+            <hospital>项城市第一人民医院</hospital>
+            <hospital>商水县人民医院</hospital>
+            <hospital>周口市传染病医院</hospital>
+            <hospital>鹿邑县人民医院</hospital>
+        </city>
+        <city cityname="驻马店">
+            <hospital>平舆县人民医院</hospital>
+            <hospital>遂平县人民医院</hospital>
+            <hospital>正阳县人民医院</hospital>
+            <hospital>驻马店市中心医院</hospital>
+            <hospital>确山县人民医院</hospital>
+            <hospital>汝南县人民医院</hospital>
+            <hospital>西平县人民医院</hospital>
+            <hospital>泌阳县中心医院</hospital>
+            <hospital>上蔡县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="湖北">
+        <city cityname="武汉">
+            <hospital>蔡甸区人民医院</hospital>
+            <hospital>江夏区第一人民医院</hospital>
+            <hospital>东西湖区人民医院</hospital>
+            <hospital>新洲区人民医院</hospital>
+            <hospital>黄陂区人民医院</hospital>
+            <hospital>汉南区人民医院</hospital>
+            <hospital>武汉市第九医院</hospital>
+            <hospital>武汉市红十字会医院</hospital>
+            <hospital>武汉市武昌医院</hospital>
+            <hospital>武汉市肺科医院</hospital>
+            <hospital>武汉市汉口医院</hospital>
+            <hospital>武汉市金银潭医院</hospital>
+            <hospital>武汉市第七医院</hospital>
+            <hospital>武汉市第五医院</hospital>
+            <hospital>武汉市第四医院西院区</hospital>
+        </city>
+        <city cityname="黄石">
+            <hospital>黄石市传染病医院</hospital>
+            <hospital>黄石市中心医院</hospital>
+            <hospital>大治市人民医院</hospital>
+            <hospital>阳新县人民医院</hospital>
+        </city>
+        <city cityname="十堰">
+            <hospital>丹江口市第一医院</hospital>
+            <hospital>郧阳区人民医院</hospital>
+            <hospital>郧西县人民医院</hospital>
+            <hospital>竹山县人民医院</hospital>
+            <hospital>竹溪县人民医院</hospital>
+            <hospital>房县人民医院</hospital>
+            <hospital>十堰市西苑医院</hospital>
+        </city>
+        <city cityname="宜昌">
+            <hospital>宜昌市夷陵医院</hospital>
+            <hospital>宜都市第一人民医院</hospital>
+            <hospital>枝江市人民医院</hospital>
+            <hospital>当阳市人民医院</hospital>
+            <hospital>秭归县人民医院</hospital>
+            <hospital>兴山县人民医院</hospital>
+            <hospital>远安县人民医院</hospital>
+            <hospital>长阳县人民医院</hospital>
+            <hospital>五峰县人民医院</hospital>
+            <hospital>宜昌市第三人民医院</hospital>
+        </city>
+        <city cityname="襄阳">
+            <hospital>襄阳市中心医院</hospital>
+            <hospital>襄阳市第一人民医院</hospital>
+            <hospital>襄阳市中心医院</hospital>
+            <hospital>襄阳市传染病医院</hospital>
+            <hospital>枣阳市第一人民医院</hospital>
+            <hospital>宜城市人民医院</hospital>
+            <hospital>南漳县人民医院</hospital>
+            <hospital>保康县人民医院</hospital>
+            <hospital>谷城县人民医院</hospital>
+            <hospital>老河口市第一医院</hospital>
+            <hospital>襄城区人民医院</hospital>
+        </city>
+        <city cityname="鄂州">
+            <hospital>鄂州市第三医院</hospital>
+        </city>
+        <city cityname="荆门">
+            <hospital>荆门市第二人民医院</hospital>
+            <hospital>荆门市第一人民医院</hospital>
+            <hospital>荆门市中医医院</hospital>
+            <hospital>京山市人民医院</hospital>
+            <hospital>钟祥市人民医院</hospital>
+            <hospital>沙洋县人民医院</hospital>
+            <hospital>荆门五三医院</hospital>
+        </city>
+        <city cityname="孝感">
+            <hospital>孝感市中心医院</hospital>
+            <hospital>孝感市第一人民医院</hospital>
+            <hospital>汉川市人民医院</hospital>
+            <hospital>应城市人民医院</hospital>
+            <hospital>云梦县人民医院</hospital>
+            <hospital>安陆市人民医院</hospital>
+            <hospital>大悟县人民医院</hospital>
+            <hospital>孝感县第一人民医院</hospital>
+        </city>
+        <city cityname="荆州">
+            <hospital>荆州市中心医院</hospital>
+            <hospital>荆州市胸科医院</hospital>
+            <hospital>荆州市第五人民医院</hospital>
+            <hospital>荆州市第一人民医院</hospital>
+            <hospital>枣阳市第一人民医院</hospital>
+            <hospital>荆州市第二人民医院</hospital>
+            <hospital>江陵县人民医院</hospital>
+            <hospital>松滋市人民医院</hospital>
+            <hospital>公安县人民医院</hospital>
+            <hospital>石首市人民医院</hospital>
+            <hospital>监利县人民医院</hospital>
+            <hospital>洪湖市人民医院</hospital>
+        </city>
+        <city cityname="黄冈">
+            <hospital>黄冈市中心医院</hospital>
+            <hospital>黄冈市中医医院</hospital>
+            <hospital>黄州区人民医院</hospital>
+            <hospital>团风县人民医院</hospital>
+            <hospital>红安县人民医院</hospital>
+            <hospital>红安县杏花卫生院</hospital>
+            <hospital>麻城市人民医院</hospital>
+            <hospital>罗田县人民医院</hospital>
+            <hospital>英山县人民医院</hospital>
+            <hospital>浠水县人民医院</hospital>
+            <hospital>蕲春县人民医院</hospital>
+            <hospital>武穴市第一人民医院</hospital>
+            <hospital>黄梅县人民医院</hospital>
+        </city>
+        <city cityname="咸宁">
+            <hospital>咸宁市中心医院</hospital>
+            <hospital>咸宁市第一人民医院</hospital>
+            <hospital>嘉鱼县人民医院</hospital>
+            <hospital>赤壁市蒲纺医院</hospital>
+            <hospital>通城县人民医院</hospital>
+            <hospital>通山县人民医院</hospital>
+            <hospital>崇阳县人民医院</hospital>
+        </city>
+        <city cityname="随州">
+            <hospital>随州市中心医院</hospital>
+            <hospital>随县洪山医院</hospital>
+            <hospital>广水市第一人民医院</hospital>
+            <hospital>广水市第二人民医院</hospital>
+            <hospital>曾都医院</hospital>
+        </city>
+        <city cityname="恩施土家族苗族自治州">
+            <hospital>恩施州中心医院</hospital>
+            <hospital>湖北民族大学附属民大医院</hospital>
+            <hospital>恩施市中心医院</hospital>
+            <hospital>利川市人民医院</hospital>
+            <hospital>建始县人民医院</hospital>
+            <hospital>巴东县人民医院</hospital>
+            <hospital>宣恩县人民医院</hospital>
+            <hospital>咸丰县人民医院</hospital>
+            <hospital>来凤县中心医院</hospital>
+            <hospital>鹤峰县中心医院</hospital>
+        </city>
+    </province>
+    <province provname="湖南">
+        <city cityname="长沙">
+            <hospital>长沙市公共卫生救治中心人民医院</hospital>
+            <hospital>长沙县第一人民医院</hospital>
+            <hospital>望城区人民医院</hospital>
+            <hospital>浏阳市人民医院</hospital>
+            <hospital>宁乡市人民医院</hospital>
+        </city>
+        <city cityname="株洲">
+            <hospital>株洲市中心医院</hospital>
+            <hospital>株洲市二医院</hospital>
+            <hospital>渌口区人民医院</hospital>
+            <hospital>醴陵市中医院</hospital>
+            <hospital>攸县人民医院</hospital>
+            <hospital>茶陵县人民医院</hospital>
+            <hospital>炎陵县人民医院</hospital>
+        </city>
+        <city cityname="湘潭">
+            <hospital>湘潭市第一人民医院</hospital>
+            <hospital>湘潭市中心医院</hospital>
+            <hospital>湘潭县人民医院</hospital>
+            <hospital>湘乡市人民医院</hospital>
+            <hospital>韶山市人民医院</hospital>
+        </city>
+        <city cityname="衡阳">
+            <hospital>衡阳市第三人民医院</hospital>
+            <hospital>南华大学附属第一医院</hospital>
+            <hospital>南华大学附属第三医院</hospital>
+            <hospital>衡南县人民医院</hospital>
+            <hospital>衡东县人民医院</hospital>
+            <hospital>衡阳县人民医院</hospital>
+            <hospital>衡山县人民医院</hospital>
+            <hospital>耒阳市人民医院</hospital>
+            <hospital>常宁市人民医院</hospital>
+            <hospital>祁东县人民医院</hospital>
+        </city>
+        <city cityname="邵阳">
+            <hospital>邵阳市中心医院</hospital>
+            <hospital>邵阳学院第一附属医院</hospital>
+            <hospital>邵东市人民医院</hospital>
+            <hospital>隆回县人民医院</hospital>
+            <hospital>邵阳县人民医院</hospital>
+            <hospital>新邵县人民医院</hospital>
+            <hospital>洞口县人民医院</hospital>
+            <hospital>武冈市人民医院</hospital>
+            <hospital>新宁县人民医院</hospital>
+            <hospital>绥宁县人民医院</hospital>
+            <hospital>城步县人民医院</hospital>
+        </city>
+        <city cityname="岳阳">
+            <hospital>岳阳市第一人民医院</hospital>
+            <hospital>屈原管理区人民医院</hospital>
+            <hospital>华容县人民医院</hospital>
+            <hospital>君山区人民医院</hospital>
+            <hospital>临湘市人民医院</hospital>
+            <hospital>岳阳县人民医院</hospital>
+            <hospital>云溪区人民医院</hospital>
+            <hospital>汨罗市人民医院</hospital>
+            <hospital>平江县第一人民医院</hospital>
+        </city>
+        <city cityname="常德">
+            <hospital>常德市第一人民医院</hospital>
+            <hospital>常德市第二人民医院</hospital>
+            <hospital>常德市第四人民医院</hospital>
+            <hospital>安乡县人民医院</hospital>
+            <hospital>桃源县人民医院</hospital>
+            <hospital>石门县人民医院</hospital>
+            <hospital>汉寿县第三人民医院</hospital>
+            <hospital>临澧县人民医院</hospital>
+            <hospital>津市市人民医院</hospital>
+            <hospital>澧县人民医院</hospital>
+        </city>
+        <city cityname="张家界">
+            <hospital>张家界市人民医院</hospital>
+            <hospital>慈利县人民医院</hospital>
+            <hospital>桑植县民医院</hospital>
+        </city>
+        <city cityname="益阳">
+            <hospital>益阳市第四人民医院</hospital>
+            <hospital>安化县人民医院</hospital>
+            <hospital>桃江县人民医院</hospital>
+            <hospital>南县人民医院</hospital>
+            <hospital>沅江市人民医院</hospital>
+        </city>
+        <city cityname="郴州">
+            <hospital>嘉禾县人民医院</hospital>
+            <hospital>临武县人民医院</hospital>
+            <hospital>汝城县人民医院</hospital>
+            <hospital>桂东县人民医院</hospital>
+            <hospital>郴州市第一人民医院</hospital>
+            <hospital>郴州市第二人民医院</hospital>
+            <hospital>资兴市第一人民医院</hospital>
+            <hospital>桂阳县人民医院</hospital>
+            <hospital>宜章县人民医院</hospital>
+            <hospital>永兴县人民医院</hospital>
+            <hospital>安仁县人民医院</hospital>
+        </city>
+        <city cityname="永州">
+            <hospital>永州市中心医院</hospital>
+            <hospital>永州市第一人民医院</hospital>
+            <hospital>祁阳县人民医院</hospital>
+            <hospital>东安县人民医院</hospital>
+            <hospital>双牌县人民医院</hospital>
+            <hospital>道县人民医院</hospital>
+            <hospital>江永县人民医院</hospital>
+            <hospital>宁远县人民医院</hospital>
+            <hospital>蓝山县人民医院</hospital>
+            <hospital>新田县人民医院</hospital>
+            <hospital>江华县人民医院</hospital>
+        </city>
+        <city cityname="怀化">
+            <hospital>怀化市第一人民医院</hospital>
+            <hospital>湖南医药学院第一附属医院</hospital>
+            <hospital>中方县人民医院</hospital>
+            <hospital>洪江市人民医院</hospital>
+            <hospital>洪江区中医医院</hospital>
+            <hospital>会同县人民医院</hospital>
+            <hospital>靖州县人民医院</hospital>
+            <hospital>通道县人民医院</hospital>
+            <hospital>芷江县人民医院</hospital>
+            <hospital>新晃县人民医院</hospital>
+            <hospital>麻阳县人民医院</hospital>
+            <hospital>芷江县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="广东">
+        <city cityname="广州">
+            <hospital>广州市妇女儿童医疗中心</hospital>
+            <hospital>广州市第八人民医院</hospital>
+            <hospital>广州市第一人民医院</hospital>
+            <hospital>广东省人民医院</hospital>
+            <hospital>广东省第二人民医院</hospital>
+            <hospital>中山大学附属第三医院</hospital>
+            <hospital>南方医科大学南方医院</hospital>
+            <hospital>广州医科大学附属第一医院</hospital>
+            <hospital>广州医科大学附属第二医院</hospital>
+        </city>
+        <city cityname="韶关">
+            <hospital>粤北第二人民医院</hospital>
+        </city>
+        <city cityname="深圳">
+            <hospital>深圳市第三人民医院</hospital>
+        </city>
+        <city cityname="珠海">
+            <hospital>中山大学附属第五医院</hospital>
+        </city>
+        <city cityname="汕头">
+            <hospital>汕头市中心医院</hospital>
+            <hospital>汕头大学医学院第一附属医院</hospital>
+        </city>
+        <city cityname="佛山">
+            <hospital>佛山市第一人民医院</hospital>
+            <hospital>佛山市第四人民医院</hospital>
+            <hospital>佛山市禅城区中心医院</hospital>
+            <hospital>南海区人民医院</hospital>
+            <hospital>南方医科大学顺德医院</hospital>
+            <hospital>高明区人民医院</hospital>
+            <hospital>三水区人民医院</hospital>
+        </city>
+        <city cityname="江门">
+            <hospital>江门市中心医院</hospital>
+            <hospital>江门市五邑中医院</hospital>
+        </city>
+        <city cityname="湛江">
+            <hospital>广东医科大学中心医院</hospital>
+            <hospital>湛江中心人民医院</hospital>
+        </city>
+        <city cityname="茂名">
+            <hospital>茂名市人民医院</hospital>
+        </city>
+        <city cityname="肇庆">
+            <hospital>肇庆市第一人民医院</hospital>
+        </city>
+        <city cityname="惠州">
+            <hospital>惠州市中心人民医院</hospital>
+            <hospital>惠州市第三人民医院</hospital>
+            <hospital>惠州市第六人民医院</hospital>
+            <hospital>惠东县人民医院</hospital>
+            <hospital>博罗县人民医院</hospital>
+            <hospital>龙门县人民医院</hospital>
+        </city>
+        <city cityname="梅州">
+            <hospital>中山大学附属第三医院粤东医院</hospital>
+            <hospital>梅州市人民医院</hospital>
+        </city>
+        <city cityname="河源">
+            <hospital>河源市人民医院</hospital>
+        </city>
+        <city cityname="阳江">
+            <hospital>阳江市公共卫生医院</hospital>
+            <hospital>阳江市人民医院</hospital>
+            <hospital>阳江市中医医院</hospital>
+        </city>
+        <city cityname="清远">
+            <hospital>清远市人民医院</hospital>
+        </city>
+        <city cityname="东莞">
+            <hospital>东莞市第九人民医院</hospital>
+            <hospital>东莞市人民医院</hospital>
+            <hospital>东莞市松山湖中心医院</hospital>
+            <hospital>东莞市滨海湾中心医院</hospital>
+            <hospital>东莞东华医院</hospital>
+            <hospital>东莞康华医院</hospital>
+        </city>
+        <city cityname="中山">
+            <hospital>中山市第二人民医院</hospital>
+        </city>
+        <city cityname="潮州">
+            <hospital>潮州市人民医院</hospital>
+        </city>
+        <city cityname="揭阳">
+            <hospital>揭阳市人民医院</hospital>
+        </city>
+        <city cityname="云浮">
+            <hospital>云浮市人民医院</hospital>
+            <hospital>罗定市人民医院</hospital>
+        </city>
+    </province>
+    <province provname="广西">
+        <city cityname="南宁">
+            <hospital>南宁市第四人民医院</hospital>
+        </city>
+        <city cityname="柳州">
+            <hospital>柳州市人民医院</hospital>
+            <hospital>广西壮族自治区龙潭医院</hospital>
+        </city>
+        <city cityname="桂林">
+            <hospital>桂林市第三人民医院</hospital>
+            <hospital>广西壮族自治区南溪山医院</hospital>
+        </city>
+        <city cityname="梧州">
+            <hospital>梧州市第三人民医院</hospital>
+        </city>
+        <city cityname="北海">
+            <hospital>北海市人民医院</hospital>
+            <hospital>北海市结核病防治院</hospital>
+        </city>
+        <city cityname="钦州">
+            <hospital>钦州市第一人民医院</hospital>
+        </city>
+        <city cityname="贵港">
+            <hospital>贵港市人民医院</hospital>
+        </city>
+        <city cityname="玉林">
+            <hospital>榆林市红十字会医院</hospital>
+            <hospital>玉林市第一人民医院</hospital>
+        </city>
+        <city cityname="百色">
+            <hospital>百色市人民医院</hospital>
+            <hospital>右江民族医学院附属医院</hospital>
+        </city>
+        <city cityname="贺州">
+            <hospital>贺州市人民医院</hospital>
+        </city>
+        <city cityname="河池">
+            <hospital>河池市人民医院</hospital>
+        </city>
+    </province>
+    <province provname="海南">
+        <city cityname="海口">
+            <hospital>海南省人民医院</hospital>
+        </city>
+        <city cityname="三亚">
+            <hospital>三亚中心医院</hospital>
+        </city>
+    </province>
+    <province provname="重庆">
+        <city cityname="重庆">
+            <hospital>市公共卫生医疗救治中心</hospital>
+            <hospital>重庆三峡中心医院</hospital>
+            <hospital>黔江中心医院</hospital>
+            <hospital>涪陵中心医院</hospital>
+            <hospital>重庆医科大学附属第一医院</hospital>
+            <hospital>重钢总医院</hospital>
+            <hospital>江北区人民医院</hospital>
+            <hospital>沙坪坝区人民医院</hospital>
+            <hospital>九龙坡区人民医院</hospital>
+            <hospital>市第五人民医院</hospital>
+            <hospital>市第九人民医院</hospital>
+            <hospital>渝北区人民医院</hospital>
+            <hospital>巴南区人民医院</hospital>
+            <hospital>长寿区人民医院</hospital>
+            <hospital>江津区中心医院</hospital>
+            <hospital>重庆医科大学附属永川医院</hospital>
+            <hospital>南川区人民医院</hospital>
+            <hospital>綦江区人民医院</hospital>
+            <hospital>大足区人民医院</hospital>
+            <hospital>璧山区人民医院</hospital>
+            <hospital>铜梁区人民医院</hospital>
+            <hospital>潼南区人民医院</hospital>
+            <hospital>荣昌区人民医院</hospital>
+            <hospital>梁平区人民医院</hospital>
+            <hospital>武隆区人民医院</hospital>
+            <hospital>开州区人民医院</hospital>
+            <hospital>城口县人民医院</hospital>
+            <hospital>丰都县人民医院</hospital>
+            <hospital>垫江县人民医院</hospital>
+            <hospital>忠县人民医院</hospital>
+            <hospital>云阳县人民医院</hospital>
+            <hospital>奉节县人民医院</hospital>
+            <hospital>巫山县人民医院</hospital>
+            <hospital>巫溪县人民医院</hospital>
+            <hospital>石柱县人民医院</hospital>
+            <hospital>秀山县人民医院</hospital>
+            <hospital>酉阳县人民医院</hospital>
+            <hospital>彭水县人民医院</hospital>
+            <hospital>两江新区第一人民医院</hospital>
+            <hospital>重庆医科大学附属大学城医院</hospital>
+            <hospital>万盛区人民医院</hospital>
+            <hospital>合川区人民医院</hospital>
+        </city>
+    </province>
+    <province provname="四川">
+        <city cityname="成都">
+            <hospital>金堂县第一人民医院</hospital>
+            <hospital>蒲江县人民医院</hospital>
+            <hospital>都江堰市人民医院</hospital>
+            <hospital>崇州市人民医院</hospital>
+            <hospital>彭州市传染病医院</hospital>
+            <hospital>简阳市人民医院</hospital>
+            <hospital>成都天府新区人民医院</hospital>
+            <hospital>成都市青白江区人民医院</hospital>
+            <hospital>成都市双流区第一人民医院</hospital>
+            <hospital>成都市龙泉驿区第一人民医院</hospital>
+            <hospital>成都市温江区人民医院</hospital>
+            <hospital>成都市郫都区人民医院</hospital>
+            <hospital>成都医学院第一附属医院</hospital>
+            <hospital>成都市公共卫生临床医疗中心</hospital>
+            <hospital>四川省人民医院</hospital>
+            <hospital>四川大学华西医院</hospital>
+            <hospital>新津县人民医院</hospital>
+            <hospital>大邑县人民医院</hospital>
+        </city>
+        <city cityname="自贡">
+            <hospital>自贡市第一人民医院</hospital>
+            <hospital>自流井区中医院</hospital>
+            <hospital>沿滩区人民医院</hospital>
+            <hospital>荣县人民医院</hospital>
+            <hospital>富顺县人民医院</hospital>
+            <hospital>大安区人民医院</hospital>
+            <hospital>自贡市第三人民医院</hospital>
+        </city>
+        <city cityname="攀枝花">
+            <hospital>攀枝花市第四人民医院</hospital>
+            <hospital>十九冶医院</hospital>
+            <hospital>攀枝花第二人民医院</hospital>
+            <hospital>仁和区人民医院</hospital>
+            <hospital>盐边县人民医院</hospital>
+            <hospital>米易县人民医院</hospital>
+        </city>
+        <city cityname="泸州">
+            <hospital>龙马潭区人民医院</hospital>
+            <hospital>纳溪区人民医院</hospital>
+            <hospital>西南医科大学附属医院</hospital>
+            <hospital>泸州市人民医院</hospital>
+            <hospital>泸县人民医院</hospital>
+            <hospital>合江县人民医院</hospital>
+            <hospital>叙永县人民医院</hospital>
+            <hospital>古蔺县人民医院</hospital>
+        </city>
+        <city cityname="德阳">
+            <hospital>德阳市人民医院</hospital>
+            <hospital>罗江区人民医院</hospital>
+            <hospital>广汉市人民医院</hospital>
+            <hospital>绵竹市人民医院</hospital>
+            <hospital>什邡市人民医院</hospital>
+            <hospital>什邡市马祖镇卫生院</hospital>
+            <hospital>什邡市皮肤病防治医院</hospital>
+            <hospital>中江县人民医院</hospital>
+        </city>
+        <city cityname="绵阳">
+            <hospital>四川绵阳404医院</hospital>
+            <hospital>安州区人民医院</hospital>
+            <hospital>江油市传染病医院</hospital>
+            <hospital>三台县人民医院</hospital>
+            <hospital>盐亭县人民医院</hospital>
+            <hospital>梓潼县人民医院</hospital>
+            <hospital>平武县人民医院</hospital>
+            <hospital>北川羌族自治县人民医院</hospital>
+        </city>
+        <city cityname="广元">
+            <hospital>广元市第三人民医院</hospital>
+            <hospital>苍溪县人民医院</hospital>
+            <hospital>旺苍县人民医院</hospital>
+            <hospital>剑阁县人民医院</hospital>
+            <hospital>青川县人民医院</hospital>
+            <hospital>利州区第一人民医院</hospital>
+            <hospital>广元市昭化区人民医院</hospital>
+            <hospital>朝天区人民医院</hospital>
+        </city>
+        <city cityname="遂宁">
+            <hospital>遂宁市中心医院</hospital>
+            <hospital>遂宁市中医院</hospital>
+            <hospital>遂宁市第一人民医院</hospital>
+            <hospital>遂宁市第三人民医院</hospital>
+            <hospital>安居区人民医院</hospital>
+            <hospital>射洪市人民医院</hospital>
+            <hospital>蓬溪县人民医院</hospital>
+            <hospital>大英县人民医院</hospital>
+        </city>
+        <city cityname="内江">
+            <hospital>内江市第一人民医院</hospital>
+            <hospital>内江市第二人民医院</hospital>
+            <hospital>内江市市中区人民医院</hospital>
+            <hospital>东兴区人民医院</hospital>
+            <hospital>隆昌市人民医院</hospital>
+            <hospital>资中县医人民医院</hospital>
+            <hospital>威远县人民医院</hospital>
+        </city>
+        <city cityname="乐山">
+            <hospital>乐山市人民医院</hospital>
+            <hospital>金口河区人民医院</hospital>
+            <hospital>沙湾区人民医院</hospital>
+            <hospital>井研县人民医院</hospital>
+            <hospital>马边彝族自治县人民医院</hospital>
+            <hospital>夹边县人民医院</hospital>
+            <hospital>犍为县人民医院</hospital>
+            <hospital>峨边彝族自治县人民医院</hospital>
+            <hospital>峨眉山市人民医院</hospital>
+            <hospital>沐川县人民医院</hospital>
+            <hospital>五通桥区人民医院</hospital>
+            <hospital>乐山市市中区人民医院</hospital>
+        </city>
+        <city cityname="南充">
+            <hospital>川北医学院附属医院</hospital>
+            <hospital>南充市中心医院</hospital>
+            <hospital>营山县人民医院</hospital>
+            <hospital>阆中市人民医院</hospital>
+            <hospital>高坪区人民医院</hospital>
+            <hospital>西充县人民医院</hospital>
+            <hospital>顺冲区人民医院</hospital>
+            <hospital>蓬安县人民医院</hospital>
+            <hospital>仪陇县人民医院</hospital>
+            <hospital>南部县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="贵州">
+        <city cityname="贵阳">
+            <hospital>贵州市人民医院</hospital>
+            <hospital>贵州医科大学附属医院</hospital>
+            <hospital>贵州市公共卫生救治中心</hospital>
+            <hospital>云岩区人民医院</hospital>
+            <hospital>南明区人民医院</hospital>
+            <hospital>花溪区人民医院</hospital>
+            <hospital>贵航贵阳医院</hospital>
+            <hospital>白云区医院</hospital>
+            <hospital>乌当区人民医院</hospital>
+            <hospital>贵阳市第二人民医院</hospital>
+            <hospital>清镇市第一人民医院</hospital>
+            <hospital>贵州医科大学大学城医院</hospital>
+            <hospital>开阳县人民医院</hospital>
+            <hospital>息烽县人民医院</hospital>
+            <hospital>修文县人民医院</hospital>
+        </city>
+        <city cityname="六盘水">
+            <hospital>六盘水市第三人民医院</hospital>
+            <hospital>盘州市人民医院</hospital>
+            <hospital>中山区人民医院</hospital>
+            <hospital>水城县人民医院</hospital>
+            <hospital>六枝特区人民医院</hospital>
+        </city>
+        <city cityname="遵义">
+            <hospital>遵义医科大学附属医院</hospital>
+            <hospital>遵义市第一人民医院</hospital>
+            <hospital>遵义市传染病医院</hospital>
+            <hospital>红花岗区人民医院</hospital>
+            <hospital>汇川区人民医院</hospital>
+            <hospital>播州区人民医院</hospital>
+            <hospital>遵义医科大学第二附属医院</hospital>
+            <hospital>桐梓县人民医院</hospital>
+            <hospital>绥阳县人民医院</hospital>
+            <hospital>仁怀市人民医院</hospital>
+            <hospital>赤水市人民医院</hospital>
+            <hospital>习水县人民医院</hospital>
+            <hospital>湄潭县人民医院</hospital>
+            <hospital>凤冈县人民医院</hospital>
+            <hospital>余庆县人民医院</hospital>
+        </city>
+        <city cityname="安顺">
+            <hospital>安顺市人民医院</hospital>
+            <hospital>开发区中西医结合医院</hospital>
+            <hospital>平坝区人民医院</hospital>
+            <hospital>西秀区人民医院</hospital>
+            <hospital>普定县人民医院</hospital>
+            <hospital>紫云县人民医院</hospital>
+            <hospital>关岭自治县人民医院</hospital>
+            <hospital>镇宁自治县人民医院</hospital>
+        </city>
+        <city cityname="毕节">
+            <hospital>毕节市第一人民医院</hospital>
+            <hospital>毕节市第三人民医院</hospital>
+            <hospital>七星关区人民医院</hospital>
+            <hospital>大方县人民医院</hospital>
+            <hospital>黔西县人民医院</hospital>
+            <hospital>威宁县人民医院</hospital>
+            <hospital>百里杜鹃管理区人民医院</hospital>
+            <hospital>金沙县人民医院</hospital>
+            <hospital>织金县人民医院</hospital>
+            <hospital>赫章县人民医院</hospital>
+            <hospital>纳雍县人民医院</hospital>
+        </city>
+        <city cityname="铜仁">
+            <hospital>铜仁市人民医院</hospital>
+            <hospital>万山区人民医院</hospital>
+            <hospital>江口县人民医院</hospital>
+            <hospital>松桃苗族自治县人民医院</hospital>
+            <hospital>石阡县人民医院</hospital>
+            <hospital>思南县人民医院</hospital>
+            <hospital>沿河土家族自治县人民医院</hospital>
+            <hospital>德江县人民医院</hospital>
+            <hospital>碧江区人民医院</hospital>
+            <hospital>印江土家族苗族自治县人民医院</hospital>
+            <hospital>玉屏侗族自治县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="云南">
+        <city cityname="昆明">
+            <hospital>云南省传染病医院</hospital>
+            <hospital>昆明医科大学第一附属医院</hospital>
+            <hospital>昆明市第三人民医院</hospital>
+        </city>
+        <city cityname="曲靖">
+            <hospital>市一院</hospital>
+            <hospital>会泽县人民医院</hospital>
+            <hospital>马龙区人民医院</hospital>
+            <hospital>罗平县人民医院</hospital>
+            <hospital>麒麟区人民医院</hospital>
+            <hospital>沾益区人民医院</hospital>
+            <hospital>陆良县人民医院</hospital>
+            <hospital>宣威市第一人民医院</hospital>
+            <hospital>师宗县人民医院</hospital>
+            <hospital>富源县人民医院</hospital>
+        </city>
+        <city cityname="玉溪">
+            <hospital>玉溪市人民医院</hospital>
+            <hospital>玉溪市第三人民医院</hospital>
+            <hospital>江川区人民医院</hospital>
+            <hospital>澄江县人民医院</hospital>
+            <hospital>通海县人民医院</hospital>
+            <hospital>华宁县人民医院</hospital>
+            <hospital>易门县人民医院</hospital>
+            <hospital>峨山县人民医院</hospital>
+            <hospital>新平县人民医院</hospital>
+            <hospital>元江县人民医院</hospital>
+        </city>
+        <city cityname="保山">
+            <hospital>保山市人民医院</hospital>
+            <hospital>施甸县人民医院</hospital>
+            <hospital>腾冲市人民医院</hospital>
+            <hospital>龙陵县人民医院</hospital>
+            <hospital>昌宁县人民医院</hospital>
+        </city>
+        <city cityname="昭通">
+            <hospital>昭通市第一人民医院</hospital>
+            <hospital>昭通市第二人民医院</hospital>
+            <hospital>鲁甸县人民医院</hospital>
+            <hospital>巧家县人民医院</hospital>
+            <hospital>镇雄县人民医院</hospital>
+            <hospital>彝良县人民医院</hospital>
+            <hospital>威信县人民医院</hospital>
+            <hospital>大关县人民医院</hospital>
+            <hospital>永善县人民医院</hospital>
+            <hospital>绥江县人民医院</hospital>
+            <hospital>水富市人民医院</hospital>
+        </city>
+        <city cityname="丽江">
+            <hospital>古城区人民医院</hospital>
+            <hospital>玉龙县人民医院</hospital>
+            <hospital>永胜县人民医院</hospital>
+            <hospital>华坪县人民医院</hospital>
+            <hospital>县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="西藏">
+        <city cityname="拉萨">
+            <hospital>西藏自治区第三人民医院</hospital>
+            <hospital>拉萨市人民医院</hospital>
+        </city>
+        <city cityname="日喀则">
+            <hospital>日喀则市人民医院</hospital>
+        </city>
+        <city cityname="昌都">
+            <hospital>昌都市人民医院</hospital>
+        </city>
+        <city cityname="林芝">
+            <hospital>林芝市人民医院</hospital>
+        </city>
+        <city cityname="山南">
+            <hospital>山南市人民医院</hospital>
+        </city>
+        <city cityname="那曲">
+            <hospital>那曲市人民医院</hospital>
+        </city>
+        <city cityname="阿里地区">
+            <hospital>阿里地区人民医院</hospital>
+        </city>
+    </province>
+    <province provname="陕西">
+        <city cityname="西安">
+            <hospital>空军军医大学第二附属医院</hospital>
+            <hospital>陕西省传染病院</hospital>
+            <hospital>西安交通大学第一附属医院</hospital>
+            <hospital>西安交通大学第二附属医院</hospital>
+            <hospital>西安市中心医院</hospital>
+            <hospital>蓝田县中心医院</hospital>
+            <hospital>临潼区人民医院</hospital>
+            <hospital>陕西航天医院</hospital>
+            <hospital>兵器工业无二一医院</hospital>
+            <hospital>周至县人民医院</hospital>
+            <hospital>高陵区医院</hospital>
+            <hospital>阎良区中心医院</hospital>
+            <hospital>西安高新医院</hospital>
+            <hospital>西安医专附属医院</hospital>
+            <hospital>西安医学院第二附属医院</hospital>
+            <hospital>西安大兴医院</hospital>
+            <hospital>西安市第九医院</hospital>
+            <hospital>陕西省友谊医院</hospital>
+            <hospital>通用环球中铁西安医院</hospital>
+        </city>
+        <city cityname="铜川">
+            <hospital>铜川市矿务局中心医院</hospital>
+            <hospital>铜川市人民医院</hospital>
+            <hospital>耀州区中心医院</hospital>
+            <hospital>宜君县人民医院</hospital>
+        </city>
+        <city cityname="宝鸡">
+            <hospital>宝鸡市中心医院</hospital>
+            <hospital>宝鸡市人民医院</hospital>
+            <hospital>眉县中心医院</hospital>
+            <hospital>千阳县人民医院</hospital>
+            <hospital>扶风县中心医院</hospital>
+            <hospital>宝鸡市金台医院</hospital>
+            <hospital>宝鸡市陈仓医院</hospital>
+            <hospital>凤县医院</hospital>
+            <hospital>高新人民医院</hospital>
+            <hospital>陇县人民医院</hospital>
+            <hospital>凤翔县医院</hospital>
+            <hospital>麟游县医院</hospital>
+            <hospital>太白县医院</hospital>
+            <hospital>岐山县医院</hospital>
+        </city>
+        <city cityname="咸阳">
+            <hospital>咸阳市中心医院东郊分院</hospital>
+            <hospital>杨凌示范区医院</hospital>
+            <hospital>武功县人民医院</hospital>
+            <hospital>蓝天医院</hospital>
+            <hospital>永寿县人民医院</hospital>
+            <hospital>三原县医院</hospital>
+            <hospital>旬邑县医院</hospital>
+            <hospital>淳化县医院</hospital>
+            <hospital>彬州市人民医院</hospital>
+            <hospital>彬州市中医医院</hospital>
+            <hospital>兴平市人民医院</hospital>
+            <hospital>省水电医院</hospital>
+            <hospital>泾阳县医院</hospital>
+            <hospital>长武县人民医院</hospital>
+            <hospital>乾县人民医院</hospital>
+            <hospital>礼泉县人民医院</hospital>
+            <hospital>秦都区中医医院</hospital>
+        </city>
+        <city cityname="渭南">
+            <hospital>渭南市中心医院</hospital>
+            <hospital>韩城市人民医院</hospital>
+            <hospital>华州区人民医院</hospital>
+            <hospital>合阳县医院</hospital>
+            <hospital>大荔县中心医院</hospital>
+            <hospital>富平县医院</hospital>
+            <hospital>蒲城县医院</hospital>
+            <hospital>潼关县人民医院</hospital>
+            <hospital>华阴市人民医院</hospital>
+            <hospital>渭南市第一医院</hospital>
+            <hospital>渭南市第二医院</hospital>
+            <hospital>澄城县医院</hospital>
+            <hospital>白水县医院</hospital>
+        </city>
+        <city cityname="延安">
+            <hospital>延安市第二人民医院</hospital>
+            <hospital>延长线人民医院</hospital>
+            <hospital>富县人民医院</hospital>
+            <hospital>延川县人民医院</hospital>
+            <hospital>宝塔区中心医院</hospital>
+            <hospital>志丹县人民医院</hospital>
+            <hospital>甘泉县人民医院</hospital>
+            <hospital>安塞区人民医院</hospital>
+            <hospital>吴起县人民医院</hospital>
+            <hospital>子长市人民医院</hospital>
+            <hospital>宜川县人民医院</hospital>
+            <hospital>洛川县医院</hospital>
+            <hospital>黄陵县人民医院</hospital>
+            <hospital>黄龙县人民医院</hospital>
+        </city>
+        <city cityname="汉中">
+            <hospital>汉中市中心医院</hospital>
+            <hospital>南郑区人民医院</hospital>
+            <hospital>汉中市传染病医院</hospital>
+            <hospital>城固县医院</hospital>
+            <hospital>洋县人民医院</hospital>
+            <hospital>勉县医院</hospital>
+            <hospital>宁强县天津医院</hospital>
+            <hospital>略阳县人民医院暨县天津中医院</hospital>
+            <hospital>镇巴县人民医院</hospital>
+            <hospital>留坝县医院</hospital>
+            <hospital>佛坪县人民医院</hospital>
+        </city>
+        <city cityname="榆林">
+            <hospital>榆林市中医医院南郊院区</hospital>
+            <hospital>榆林市第一医院</hospital>
+            <hospital>神木市医院</hospital>
+            <hospital>府谷县人民医院</hospital>
+            <hospital>定边县中心医院</hospital>
+            <hospital>靖边县金台医院</hospital>
+            <hospital>靖边县中医医院</hospital>
+            <hospital>横山区人民医院</hospital>
+            <hospital>榆阳区人民医院</hospital>
+            <hospital>绥德县医院</hospital>
+            <hospital>子洲县人民医院</hospital>
+            <hospital>清涧县人民医院</hospital>
+            <hospital>佳县人民医院</hospital>
+            <hospital>米脂县人民医院</hospital>
+            <hospital>吴堡县医院</hospital>
+        </city>
+    </province>
+    <province provname="甘肃">
+        <city cityname="兰州">
+            <hospital>兰大一院</hospital>
+            <hospital>兰州市肺科医院</hospital>
+            <hospital>城关区人民医院</hospital>
+            <hospital>七里河区人民医院</hospital>
+            <hospital>西固区人民医院</hospital>
+            <hospital>安宁区人民医院</hospital>
+            <hospital>红古区人民医院</hospital>
+            <hospital>兰州市第五医院</hospital>
+            <hospital>永登县人民医院</hospital>
+            <hospital>榆中县第一人民医院</hospital>
+            <hospital>皋兰县人民医院</hospital>
+            <hospital>兰州新区第一人民医院</hospital>
+            <hospital>安宁区万里医院</hospital>
+        </city>
+        <city cityname="嘉峪关">
+            <hospital>嘉峪关市第一人民医院</hospital>
+        </city>
+        <city cityname="金昌">
+            <hospital>金昌市中心医院</hospital>
+            <hospital>永昌县人民医院</hospital>
+        </city>
+        <city cityname="白银">
+            <hospital>省中医院白银分院</hospital>
+            <hospital>白银市第二人民医院</hospital>
+            <hospital>白银市中心医院</hospital>
+            <hospital>靖远县人民医院</hospital>
+            <hospital>会宁县中心医院</hospital>
+            <hospital>景泰县人民医院</hospital>
+        </city>
+        <city cityname="天水">
+            <hospital>天水市第一人民医院</hospital>
+            <hospital>天水市中西医医院</hospital>
+            <hospital>天水市第五人民医院</hospital>
+            <hospital>秦州区人民医院</hospital>
+            <hospital>甘谷县人民医院</hospital>
+            <hospital>武山县人民医院</hospital>
+            <hospital>秦安县人民医院</hospital>
+            <hospital>清水县第五医院</hospital>
+            <hospital>张家川县人民医院</hospital>
+        </city>
+        <city cityname="武威">
+            <hospital>民勤县人民医院</hospital>
+            <hospital>古浪县人民医院</hospital>
+            <hospital>天祝县中心医院</hospital>
+            <hospital>武威市传染病院</hospital>
+        </city>
+        <city cityname="张掖">
+            <hospital>河西学院附属张掖人民分院</hospital>
+            <hospital>甘州区人民医院</hospital>
+            <hospital>临泽县人民医院</hospital>
+            <hospital>高台县人民医院</hospital>
+            <hospital>山丹县人民医院</hospital>
+            <hospital>民乐县人民医院</hospital>
+            <hospital>肃南县人民医院</hospital>
+        </city>
+        <city cityname="平凉">
+            <hospital>崇信县人民医院</hospital>
+            <hospital>泾川县人民医院</hospital>
+            <hospital>平凉市第二人民医院</hospital>
+            <hospital>灵台县人民医院</hospital>
+            <hospital>庄浪县人民医院</hospital>
+        </city>
+        <city cityname="酒泉">
+            <hospital>玉门市第一人民分院</hospital>
+            <hospital>瓜州县人民医院</hospital>
+            <hospital>敦煌市医院</hospital>
+            <hospital>肃北县人民医院</hospital>
+            <hospital>阿克塞县人民医院</hospital>
+        </city>
+        <city cityname="庆阳">
+            <hospital>宁县人民分院</hospital>
+            <hospital>华池县人民医院</hospital>
+            <hospital>镇远县第一人民医院</hospital>
+            <hospital>合水县人民医院</hospital>
+            <hospital>庆城县人民医院</hospital>
+        </city>
+    </province>
+    <province provname="青海">
+        <city cityname="西宁">
+            <hospital>青海省第四人民医院</hospital>
+            <hospital>西宁市第三人民医院</hospital>
+        </city>
+        <city cityname="海东">
+            <hospital>海东市第三人民医院</hospital>
+            <hospital>海东市乐都区第二人民医院</hospital>
+        </city>
+        <city cityname="海北藏族自治区">
+            <hospital>海北州第一人民医院</hospital>
+        </city>
+        <city cityname="黄南藏族自治州">
+            <hospital>黄南州人民医院</hospital>
+        </city>
+        <city cityname="海南藏族自治区">
+            <hospital>海南州人民医院</hospital>
+        </city>
+        <city cityname="果洛藏族自治州">
+            <hospital>果洛州人民医院</hospital>
+        </city>
+        <city cityname="玉树藏族自治区">
+            <hospital>玉树州人民医院</hospital>
+        </city>
+        <city cityname="海西藏族自治州">
+            <hospital>海西州人民医院</hospital>
+        </city>
+    </province>
+    <province provname="宁夏">
+        <city cityname="银川">
+            <hospital>宁夏医科大学总医院</hospital>
+            <hospital>自治区人民医院</hospital>
+            <hospital>自治区第四人民医院</hospital>
+            <hospital>银川市第一人民医院</hospital>
+        </city>
+    </province>
+    <province provname="新疆">
+        <city cityname="乌鲁木齐">
+            <hospital>自治区传染病医院</hospital>
+            <hospital>自治区人民医院</hospital>
+            <hospital>新疆医科大学第一附属医院</hospital>
+            <hospital>兵团医院</hospital>
+        </city>
+        <city cityname="克拉玛依">
+            <hospital>克拉玛依市中心医院</hospital>
+        </city>
+        <city cityname="吐鲁番">
+            <hospital>吐鲁番市人民医院大河沿镇传染病区</hospital>
+        </city>
+        <city cityname="哈密">
+            <hospital>哈密市中心医院</hospital>
+            <hospital>第十三师红星医院</hospital>
+        </city>
+        <city cityname="阿克苏地区">
+            <hospital>阿克苏地区第二人民医院分院</hospital>
+            <hospital>第一师医院</hospital>
+        </city>
+        <city cityname="喀什">
+            <hospital>客仟地区第一人民中心</hospital>
+        </city>
+        <city cityname="和田地区">
+            <hospital>和田地区传染病专科医院</hospital>
+            <hospital>第十四师昆玉市人民医院</hospital>
+        </city>
+        <city cityname="桑吉回族自治州">
+            <hospital>桑吉州人民医院</hospital>
+            <hospital>第六师医院</hospital>
+            <hospital>第六师奇台医院</hospital>
+        </city>
+        <city cityname="博尔塔拉自治州">
+            <hospital>博州博乐市人民医院</hospital>
+            <hospital>第五师医院</hospital>
+        </city>
+        <city cityname="巴音郭楞自治州">
+            <hospital>巴州人民医院</hospital>
+            <hospital>第二师焉耆医院</hospital>
+        </city>
+    </province>
+</citylist>
